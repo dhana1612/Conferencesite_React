@@ -1,0 +1,119 @@
+html {
+    font-size: 14px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+      font-family: "Times New Roman", Times, serif;
+      background-color: #f0f8ff;
+  }
+  
+  .container-fluid {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+  
+  header {
+      background-image: url("Images/Photo5.jpg");
+  }
+  
+  .navbar {
+      position: fixed;
+      top: 0;
+      background-image: url("Images/Photo5.jpg");
+      z-index:2;
+  }
+  
+  
+  .form-control {
+      background-color: transparent;
+      border: none;
+      border-bottom: 3px solid Black;
+  }
+  
+  .form-control:hover,
+  .form-control:active,
+  .form-control:focus {
+          background-color: transparent;
+          border: none;
+          border-bottom: 3px solid black;
+      }
+  
+  
+  .placeholder-white::placeholder {
+      color: black;
+      opacity: 1; 
+  }
+  
+  .card {
+      z-index:1;
+  }
+  
+  footer {
+      background-image: url('Images/Photo15.jpg');
+  }
+  
+  .card-img-top {
+      height: 250px; 
+      object-fit: cover;
+  }
+  
+  .divider {
+      width: 200px;
+      height: 4px;
+      background-color: white;
+      border-radius: 2px;
+  }
+  
+  
+  .backdrop-blur {
+      backdrop-filter: blur(10px);
+  }
+  
+  .transition-transform:hover {
+      transform: translateY(-5px);
+      transition: transform 0.3s ease-in-out;
+  }
+  .newpapar, .scope{
+      text-align: justify;
+      text-indent: 40px;
+  }
+  
+  
+  
+  /* Register button Hover Effect*/
+  .startbutton:hover {
+      background-color: yellow !important;
+  }
+  
+  
+  .navbar-nav .nav-item .nav-link.active {
+      color: #ffcc00 !important; 
+      font-weight: bold;
+  }
+  
+  
+  #speaker {
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+  }
+  
+  #FooterConference{
+      text-align:justify;
+  }
+  
+  .title {
+      font-size: 55px;
+  }
