@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Key_Dates() {
   return (
     <>
-       <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('public/Images/Photo17.jpeg')", backgroundSize: "cover", backgroundPosition: "center",}}>
+       <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/053/712/130/non_2x/stack-of-books-on-wooden-table-against-blue-background-free-photo.jpg')", backgroundSize: "cover", backgroundPosition: "center",}}>
         <div className="mask w-100 h-100  bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
           <div className="text-white text-start px-3 animated slideInDown">
             <h2 className="fw-bold display-5 text-uppercase text-light">Key Dates</h2>
@@ -48,7 +49,7 @@ export default function Key_Dates() {
             </div>
         </div>
 
-         {/* Venue Section */}
+        {/* Venue Section */}
       <section
         className="container-fluid text-dark p-5"
         style={{
@@ -85,9 +86,9 @@ export default function Key_Dates() {
             </div>
           </div>
           <div className="text-center mt-4">
-            <a href="/Author_s_Desk/Registration_Details" className="btn bg-success text-light fs-4 btn-lg">
+            <Link to="/authors/registration-details" className="btn bg-success text-light fs-4 btn-lg">
               Register Here
-            </a>
+            </Link>
           </div>
         </div>
       </section>

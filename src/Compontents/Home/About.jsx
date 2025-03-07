@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function About() {
   return (
@@ -17,9 +18,9 @@ export default function About() {
               In 2025, the conference is scheduled to take place on July 21st and 22nd at the PSG Institute of Technology and Applied Research (PSG iTech) in Coimbatore, Tamil Nadu, India. PSG iTech, established in 2014, is renowned for its commitment to academic excellence and industry engagement, making it a fitting venue for this international gathering.
             </p>
             <div className="text-start mt-4">
-              <a className="btn btn-primary px-4 py-2 fs-5 fw-bold" href="/AboutUs/About_the_conference">
+              <Link className="btn btn-primary px-4 py-2 fs-5 fw-bold" to="/about">
                 About Conference
-              </a>
+              </Link>
             </div>
           </div>
         </div>

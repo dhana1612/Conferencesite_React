@@ -1,19 +1,9 @@
 import React from 'react'
 
-export default function ContactUs() {
+export default function Contact() {
   return (
-   <>
-      <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('public/Images/Photo22.jpg')", backgroundSize: "cover", backgroundPosition: "center",}}>
-        <div className="mask w-100 h-100  bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
-          <div className="text-white text-start px-3 animated slideInDown">
-            <h2 className="fw-bold display-5 text-uppercase text-light">Contact Us</h2>
-            <div className="divider mx-auto my-3"></div>
-          </div>
-        </div>
-      </div>
-
-
-      <section className="contact-our-area pb-3 mx-auto" id="contact">
+    <>
+         <section className="contact-our-area pb-3 mx-auto" id="contact">
             <div className="container pb-5 pt-5 text-black">
                 <div className="row">
                     <div className="col-12">
@@ -100,21 +90,6 @@ export default function ContactUs() {
                 </div>
             </div>
         </section>
-
-
-        {/* <!--MapSection--> */}
-        <div>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d308436.5138084717!2d79.09197384202913!3d12.941258620178797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad3893a209c55b%3A0xb3649fe847b74dca!2sBrain%20Insight!5e1!3m2!1sen!2sin!4v1739039836803!5m2!1sen!2sin"
-        width="100%"
-        height="450"
-        style={{ border: 0 }}
-        allowFullScreen
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-        title="Google Map"
-      ></iframe>
-        </div>
-   </>
+    </>
   )
 }

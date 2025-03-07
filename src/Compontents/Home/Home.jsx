@@ -1,7 +1,8 @@
 import React from 'react'
 import HeroSection from './HeroSection'
 import About from './About'
-import Speaker from './HomeCom/Speaker'
+import Speaker from './Speaker'
+import Contact from './Contact'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
        <HeroSection/>
        <About/>
        <Speaker/>
+       <Contact/>
     </>
   )
 }

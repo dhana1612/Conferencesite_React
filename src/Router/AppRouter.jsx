@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from '../Compontents/Home/Home'
-// import Speaker from '../Compontents/Home/Speaker'
 import Main from '../Compontents/Main/Main'
 import About_the_Conference from '../Compontents/About_Us/About_the_Conference'
 import Scope_of_Conference from '../Compontents/About_Us/Scope_of_Conference'
@@ -10,6 +9,9 @@ import Editorial_Board from '../Compontents/About_Us/Editorial_Board'
 import Journal_Publication from '../Compontents/Author_s_Desk/Journal_Publication'
 import Key_Dates from '../Compontents/Author_s_Desk/Key_Dates'
 import Registration_Details from '../Compontents/Author_s_Desk/Registration_Details'
+import SpeakerHome from '../Compontents/Home/SpeakerHome'
+import NewPaperSubmission from '../Compontents/Author_s_Desk/NewPaperSubmission'
+import ContactUs from '../Compontents/Home/ContactUs'
 
 export default function AppRouter() {
   return (
@@ -17,14 +19,17 @@ export default function AppRouter() {
     <Routes>
        <Route element={<Main/>}>
        <Route path="/" element={<Home/>} />
-       {/* <Route path="/speakers" element={<Speaker/>} /> */}
        <Route path="/about" element={<About_the_Conference/>} />
-       <Route path="/Scope" element={<Scope_of_Conference/>} />
-       <Route path="/Organizing_Committee" element={<Organizing_Committee/>} />
-       <Route path="/Editorial_Board" element={<Editorial_Board/>} />
+       <Route path="/about/Scope" element={<Scope_of_Conference/>} />
+       <Route path="/about/Organizing_Committee" element={<Organizing_Committee/>} />
+       <Route path="/about/Editorial_Board" element={<Editorial_Board/>} />
        <Route path="/authors/journal-publication" element={<Journal_Publication/>} />
        <Route path="/authors/key-dates" element={<Key_Dates/>} />
        <Route path="/authors/registration-details" element={<Registration_Details/>} />
+       <Route path="/Speaker" element={<SpeakerHome/>} />
+       <Route path="/contact" element={<ContactUs/>} />
+       <Route path="/NewPaperSubmission" element={<NewPaperSubmission/>} />
+       <Route path="/authors/new-paper-submissions" element={<NewPaperSubmission/>} />
        </Route>
    </Routes>
    </BrowserRouter>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function HeroSection() {
   return (
@@ -16,19 +17,19 @@ export default function HeroSection() {
     >
       <div className="mask w-100 h-100 bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
         <div className="text-start px-3 animated slideInUp" style={{ color: "#FFFFFF", animationDelay: "0.5s" }}>
-          <h1 className="mb-3 text-center title">
+          <h1 className="mb-3 text-center title sm:fs-3">
             7th International Conference on Next-Gen Computing <br />and Intelligent Systems
           </h1>
           <h5 className="mb-3 display-6 text-center text-warning">7th April, 2025</h5>
           <div className="d-flex justify-content-center">
-            <a
+            <Link
               className="btn btn-lg m-2 startbutton text-dark fs-4 fw-bold animated pulse infinite"
               style={{ backgroundColor: "white", animationDuration: "1.5s" }}
-              href="/Author_s_Desk/Registration_Details"
+              to="/NewPaperSubmission"
               role="button"
             >
               Register Here
-            </a>
+            </Link>
           </div>
         </div>
       </div>

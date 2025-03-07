@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function About_the_Conference() {
   return (
@@ -74,9 +75,9 @@ export default function About_the_Conference() {
             </div>
           </div>
           <div className="text-center mt-4">
-            <a href="/Author_s_Desk/Registration_Details" className="btn bg-success text-light fs-4 btn-lg">
+            <Link to="/authors/registration-details" className="btn bg-success text-light fs-4 btn-lg">
               Register Here
-            </a>
+            </Link>
           </div>
         </div>
       </section>

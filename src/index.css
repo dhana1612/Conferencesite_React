@@ -25,13 +25,13 @@ html {
   }
   
   header {
-      background-image: url("Images/Photo5.jpg");
+      background-image: url("../Images/Photo5.jpg");
   }
   
   .navbar {
       position: fixed;
       top: 0;
-      background-image: url("Images/Photo5.jpg");
+      background-image: url("../Images/Photo5.jpg");
       z-index:2;
   }
   
@@ -61,7 +61,7 @@ html {
   }
   
   footer {
-      background-image: url('Images/Photo15.jpg');
+      background-image: url('../Images/Photo15.jpg');
   }
   
   .card-img-top {
@@ -117,3 +117,129 @@ html {
   .title {
       font-size: 55px;
   }
+
+  @media (max-width: 368px) {
+    .title {
+      font-size: 25px;
+    }
+  }
+
+
+  /* Fade-in Effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Slide Down Animation */
+@keyframes slideInDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Smooth Scaling Effect */
+@keyframes scaleIn {
+    from {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Apply Animations */
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+.slideInDown {
+    animation-name: slideInDown;
+}
+
+.scaleIn {
+    animation-name: scaleIn;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Apply animations */
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+.slideInUp {
+    animation-name: slideInUp;
+}
+
+.pulse {
+    animation-name: pulse;
+}
+
+
+
+
+.nav-link.active {
+    color: #f39c12 !important; /* Change to your preferred color */
+  }
+  
