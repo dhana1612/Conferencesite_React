@@ -3,7 +3,7 @@ import React from 'react'
 export default function Journal_Publication() {
   return (
     <>
-        <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('public/Images/Photo18.jpeg')", backgroundSize: "cover", backgroundPosition: "center",}}>
+       <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('https://static.vecteezy.com/system/resources/thumbnails/039/830/455/small_2x/ai-generated-an-open-book-photo.jpg')", backgroundSize: "cover", backgroundPosition: "center",}}>
         <div className="mask w-100 h-100  bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
           <div className="text-white text-start px-3 animated slideInDown">
             <h2 className="fw-bold display-5 text-uppercase text-light">About Conference</h2>
@@ -13,7 +13,7 @@ export default function Journal_Publication() {
       </div>
 
 
-      <div className="container-fluid d-flex vh-50 justify-content-center align-items-center my-5">
+      {/* <div className="container-fluid d-flex vh-50 justify-content-center align-items-center my-5">
             <div className="text-center border rounded p-5 shadow">
                 <h1 className="fw-bold text-dark">Coming Soon</h1>
                 <p className="text-secondary">We're working on something exciting!</p>
@@ -21,13 +21,13 @@ export default function Journal_Publication() {
                     <span className="visually-hidden">Loading...</span>
                 </div>
             </div>
-      </div>
+      </div> */}
 
        {/* Venue Section */}
        <section
         className="container-fluid text-dark p-5"
         style={{
-          backgroundImage: "url('../Images/Photo23.jpg')",
+          backgroundImage: "url('/Images/Photo23.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
