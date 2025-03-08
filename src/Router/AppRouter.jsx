@@ -12,10 +12,12 @@ import Registration_Details from '../Compontents/Author_s_Desk/Registration_Deta
 import SpeakerHome from '../Compontents/Home/SpeakerHome'
 import NewPaperSubmission from '../Compontents/Author_s_Desk/NewPaperSubmission'
 import ContactUs from '../Compontents/Home/ContactUs'
+import ScrollToTop from './ScrollToTop '
 
 export default function AppRouter() {
   return (
     <BrowserRouter>
+     <ScrollToTop />
     <Routes>
        <Route element={<Main/>}>
        <Route path="/" element={<Home/>} />

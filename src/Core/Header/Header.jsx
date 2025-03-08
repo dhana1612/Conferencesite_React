@@ -42,15 +42,15 @@ export const Header = () => {
                 </li>
 
                 <li className="nav-item dropdown pe-4">
-                  <a
-                    className="nav-link dropdown-toggle text-white"
-                    href="#"
+                  <Link
+                     className={`nav-link dropdown-toggle text-white ${location.pathname.includes("about") ? "active" : ""}`}
+                    to="#"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     About Us
-                  </a>
+                  </Link>
                   <ul className="dropdown-menu fs-5">
                     <li>
                       <Link
@@ -89,7 +89,7 @@ export const Header = () => {
 
                 <li className="nav-item dropdown pe-4">
                   <Link
-                    className={`nav-link dropdown-toggle text-white ${location.pathname === "/authors" ? "active" : ""}`}
+                    className={`nav-link dropdown-toggle text-white ${location.pathname.includes("author") ? "active" : ""}`}
                     to="#"
                     role="button"
                     data-bs-toggle="dropdown"
