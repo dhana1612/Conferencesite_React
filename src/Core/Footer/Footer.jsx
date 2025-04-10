@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
    <>
     {/* <!--Footer Section--> */}
-    <footer className="text-center text-lg-start text-white fs-5 pt-4" style={{ backgroundColor: "#929fba" }} id="Footerbg">
+    <footer className="text-center text-lg-start text-white fs-5 pt-4" style={{ backgroundColor: "#929fba",  backgroundRepeat: "no-repeat" }} id="Footerbg">
       <div className="container p-4 ps-3 py-0">
         <section>
           <div className="row">

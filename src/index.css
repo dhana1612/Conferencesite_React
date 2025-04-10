@@ -24,14 +24,14 @@ html {
       padding-right: 0 !important;
   }
   
-  header {
+  /* header {
       background-image: url("../Images/Photo5.jpg");
   }
-  
+   */
   .navbar {
       position: fixed;
       top: 0;
-      background-image: url("../Images/Photo5.jpg");
+      background-color: black;
       z-index:2;
   }
   
@@ -61,8 +61,11 @@ html {
   }
   
   footer {
-      background-image: url('../Images/Photo15.jpg');
-  }
+    background-image: url('../Images/Photo15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
   
   .card-img-top {
       height: 250px; 
@@ -119,6 +122,12 @@ html {
   }
 
   @media (max-width: 368px) {
+    .title {
+      font-size: 25px;
+    }
+  }
+
+  @media (max-width: 268px) {
     .title {
       font-size: 25px;
     }

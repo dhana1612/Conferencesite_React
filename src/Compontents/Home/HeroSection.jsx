@@ -17,7 +17,7 @@ export default function HeroSection() {
     >
       <div className="mask w-100 h-100 bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
         <div className="text-start px-3 animated slideInUp" style={{ color: "#FFFFFF", animationDelay: "0.5s" }}>
-          <h1 className="mb-3 text-center title sm:fs-3">
+          <h1 className="mb-3 text-center title">
             7th International Conference on Next-Gen Computing <br />and Intelligent Systems
           </h1>
           <h5 className="mb-3 display-6 text-center text-warning">7th April, 2025</h5>

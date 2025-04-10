@@ -32,7 +32,7 @@ export default function NewPaperSubmission() {
     }
 
     try {
-      const response = await axios.post('http://localhost:3000/api/submit-paper', submissionData, {
+      const response = await axios.post('https://icngcis.org/submit-paper.php', submissionData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       setMessage(response.data.message);
