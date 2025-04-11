@@ -13,11 +13,13 @@ import SpeakerHome from '../Compontents/Home/SpeakerHome'
 import NewPaperSubmission from '../Compontents/Author_s_Desk/NewPaperSubmission'
 import ContactUs from '../Compontents/Home/ContactUs'
 import ScrollToTop from './ScrollToTop '
+import MetaTags from '../Core/Metatags'
 
 export default function AppRouter() {
   return (
     <BrowserRouter>
      <ScrollToTop />
+     <MetaTags/>
     <Routes>
        <Route element={<Main/>}>
        <Route path="/" element={<Home/>} />

@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import MetaTags from '../../Core/Metatags'
 
 export default function About() {
   return (
-    
+    <>
+      <MetaTags />
+   
     <section className="about-us-countdown-area section-padding-100-0 pt-4 pb-2" id="about">
     <div className="container pt-5 pb-2">
       <h5 className="text-uppercase text-primary fs-3 fw-bold">About Conference</h5>
@@ -31,5 +34,7 @@ export default function About() {
       </div>
     </div>
     </section>
+
+    </>
   )
 }

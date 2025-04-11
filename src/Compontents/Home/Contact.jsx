@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import MetaTags from '../../Core/Metatags';
 
 export default function Contact() {
     const [formData, setFormData] = useState({
@@ -60,6 +61,7 @@ export default function Contact() {
 
     return (
         <>
+        <MetaTags/>
             <section className="contact-our-area pb-3 mx-auto" id="contact">
                 <div className="container pb-5 pt-5 text-black">
                     <div className="row">
