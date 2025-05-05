@@ -21,7 +21,7 @@ export default function Organizing_Committee() {
                 <h4 className="bg-primary text-white py-2 rounded-full px-4 mx-auto text-center max-w-sm sm:max-w-sm fs-2">Chairman</h4>
                 <div className="card mt-3 shadow-sm mx-5">
                     <div className="card-body fs-5">
-                        Dr. N. Anbazhaghan, M.E., Ph.D., Principal
+                        Dr. S. Elumalai, M.E., Ph.D., Principal
                     </div>
                 </div>
             </div>
@@ -32,10 +32,10 @@ export default function Organizing_Committee() {
                 <div className="card mt-3 shadow-sm mx-5">
                     <div className="card-body fs-5">
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Dr. J. Joseph Ignatious, M.E., Ph.D., Professor / ECE</li>
-                            <li className="list-group-item">Dr. G. Perumal, M.E., Ph.D., Professor & Head / MECH</li>
-                            <li className="list-group-item">Dr. J.K. Jothi Kalpana, M.Tech., Ph.D., Professor / CSE</li>
-                            <li className="list-group-item">Dr. S. Shanmuga Sundaram, M.E., Ph.D., Coordinator / S&H</li>
+                            <li className="list-group-item">Dr. J. Peter, M.E., Ph.D., Professor / ECE</li>
+                            <li className="list-group-item">Dr. G. Lisa, M.E., Ph.D., Professor & Head / MECH</li>
+                            <li className="list-group-item">Dr. J.K. Diayana, M.Tech., Ph.D., Professor / CSE</li>
+                            <li className="list-group-item">Dr. S. John, M.E., Ph.D., Coordinator / S&H</li>
                         </ul>
                     </div>
                 </div>
@@ -47,10 +47,10 @@ export default function Organizing_Committee() {
                 <div className="card mt-3 shadow-sm mx-5">
                     <div className="card-body fs-5">
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Mr. G. Sadiq Basha, HOD / ECE</li>
-                            <li className="list-group-item">Mr. K. Ramesh, HOD / CSE</li>
-                            <li className="list-group-item">Mr. S. Manimaran, HOD / EEE</li>
-                            <li className="list-group-item">Mr. A. Kumar, HOD / CIVIL</li>
+                            <li className="list-group-item">Mr. G. Jack, HOD / ECE</li>
+                            <li className="list-group-item">Mr. K. Vasanth, HOD / CSE</li>
+                            <li className="list-group-item">Mr. S. Johnarthan, HOD / EEE</li>
+                            <li className="list-group-item">Mr. A. Harish, HOD / CIVIL</li>
                         </ul>
                     </div>
                 </div>
@@ -62,10 +62,10 @@ export default function Organizing_Committee() {
                 <div className="card mt-3 shadow-sm mx-5 fs-5">
                     <div className="card-body">
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Mr. N. Gobinathan, Assistant Professor / CSE</li>
-                            <li className="list-group-item">Mr. P. Paruthillam Vazhuthi, Assistant Professor / ECE</li>
-                            <li className="list-group-item">Mr. N. Ejoumalae, Assistant Professor / MEC</li>
-                            <li className="list-group-item">Mr. R. Vimalprakash, Assistant Professor / EEE</li>
+                            <li className="list-group-item">Mr. N. Peter, Assistant Professor / CSE</li>
+                            <li className="list-group-item">Mr. P. John, Assistant Professor / ECE</li>
+                            <li className="list-group-item">Mr. N. Varun, Assistant Professor / MEC</li>
+                            <li className="list-group-item">Mr. R. Jack, Assistant Professor / EEE</li>
                         </ul>
                     </div>
                 </div>
@@ -77,11 +77,11 @@ export default function Organizing_Committee() {
                 <div className="card mt-3 shadow-sm mx-5">
                     <div className="card-body fs-5">
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Mr. C. Subramaniyan, Associate Professor / MECH</li>
-                            <li className="list-group-item">Mr. B. Annadurai, Assistant Professor / EEE</li>
-                            <li className="list-group-item">Mrs. T. Priyadarshini, Assistant Professor / ECE</li>
-                            <li className="list-group-item">Mr. P. Dinesh Babu, Assistant Professor / CSE</li>
-                            <li className="list-group-item">Mrs. S. Sivapriya, Assistant Professor / CIVIL</li>
+                            <li className="list-group-item">Mr. C. Prasath, Associate Professor / MECH</li>
+                            <li className="list-group-item">Mr. B. Dhana, Assistant Professor / EEE</li>
+                            <li className="list-group-item">Mrs. T. Chandra, Assistant Professor / ECE</li>
+                            <li className="list-group-item">Mr. S. Malai, Assistant Professor / CSE</li>
+                            <li className="list-group-item">Mrs. S Sahana , Assistant Professor / CIVIL</li>
                         </ul>
                     </div>
                 </div>
@@ -89,7 +89,8 @@ export default function Organizing_Committee() {
         </div>
 
         {/* Venue Section */}
-      <section
+     {/* Venue Section */}
+     <section
         className="container-fluid text-dark p-5"
         style={{
           backgroundImage: "url('../Images/Photo23.jpg')",
@@ -106,11 +107,11 @@ export default function Organizing_Committee() {
                 <p className="display-5 fw-bold">Where</p>
                 <div className="border-bottom border-success border-3 w-25 mb-3"></div>
                 <p className="mt-2 fs-4 text-center">
-                  PSG Institute of Technology and Applied Research
+                  DDD Institute of Technology and Applied Research
                   <br />
-                  Avinashi Road, Neelambur, Coimbatore,
+                  Street Road, Place, City,
                   <br />
-                  Tamilnadu
+                  Country
                 </p>
               </div>
             </div>
@@ -120,7 +121,7 @@ export default function Organizing_Committee() {
                 <i className="fa-solid fa-calendar-alt text-success fs-1 mb-3"></i>
                 <p className="display-5 fw-bold">When</p>
                 <div className="border-bottom border-success border-3 w-25 mb-3"></div>
-                <p className="mt-2 fs-4 text-center">23<sup>rd</sup> - 24<sup>th</sup> August, 2024</p>
+                <p className="mt-2 fs-4 text-center">23<sup>rd</sup> - 24<sup>th</sup> August, 2025</p>
               </div>
             </div>
           </div>

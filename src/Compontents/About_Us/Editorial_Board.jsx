@@ -27,16 +27,16 @@ export default function Editorial_Board() {
         <div className="row justify-content-center mb-4 fs-5">
           {[
             {
-              name: "Dr. B. Deepanraj",
+              name: "Dr. B. Mona lisa",
               designation: "ASP / Mechanical Engg.",
-              institute: "Prince Mohammed Bin Fahd University,",
-              location: "Al Khobar, Saudi Arabia."
+              institute: "AAA University,",
+              location: "Al, Arabia."
             },
             {
-              name: "Dr. D. Lenin Singaravelu",
+              name: "Dr. D. Kevin",
               designation: "ASP / Production Engg.",
-              institute: "National Institute of Technology,",
-              location: "Trichy."
+              institute: "Institute of Technology,",
+              location: "City."
             }
           ].map((member, index) => (
             <div
@@ -58,16 +58,16 @@ export default function Editorial_Board() {
         <div className="row justify-content-center mb-4 fs-5">
           {[
             {
-              name: "Dr. N. Senthil Kumar",
-              designation: "AP & Head / Mech",
-              institute: "National Institute of Technology,",
-              location: "Karaikal, UT of Puducherry."
+              name: "Dr. B. Lisa",
+              designation: "ASP / Mechanical Engg.",
+              institute: "AAA University,",
+              location: "Al, Arabia."
             },
             {
-              name: "Dr. K. Devakumar",
-              designation: "Manager",
-              institute: "Advanced Technology Products,",
-              location: "BHEL, Trichy."
+              name: "Dr. D. karl marx",
+              designation: "ASP / Production Engg.",
+              institute: "Institute of Technology,",
+              location: "City."
             }
           ].map((member, index) => (
             <div
@@ -88,13 +88,13 @@ export default function Editorial_Board() {
         {/* Single Member at the Center */}
         <div className="row justify-content-center fs-5">
           <div className="col-md-8 bg-white text-center border border-primary rounded p-4 shadow-lg">
-            <strong className="text-dark fs-4">Dr. Nadir Dizge</strong>
+            <strong className="text-dark fs-4">Dr. lenin</strong>
             <br />
             <span className="text-muted">Professor</span>
             <br />
             Dept. of Environmental Science & Engg.,
             <br />
-            <em>Mersin University, Turkey.</em>
+            <em> University, Country.</em>
           </div>
         </div>
       </div>
@@ -117,11 +117,11 @@ export default function Editorial_Board() {
                 <p className="display-5 fw-bold">Where</p>
                 <div className="border-bottom border-success border-3 w-25 mb-3"></div>
                 <p className="mt-2 fs-4 text-center">
-                  PSG Institute of Technology and Applied Research
+                  DDD Institute of Technology and Applied Research
                   <br />
-                  Avinashi Road, Neelambur, Coimbatore,
+                  Street Road, Place, City,
                   <br />
-                  Tamilnadu
+                  Country
                 </p>
               </div>
             </div>
@@ -131,7 +131,7 @@ export default function Editorial_Board() {
                 <i className="fa-solid fa-calendar-alt text-success fs-1 mb-3"></i>
                 <p className="display-5 fw-bold">When</p>
                 <div className="border-bottom border-success border-3 w-25 mb-3"></div>
-                <p className="mt-2 fs-4 text-center">23<sup>rd</sup> - 24<sup>th</sup> August, 2024</p>
+                <p className="mt-2 fs-4 text-center">23<sup>rd</sup> - 24<sup>th</sup> August, 2025</p>
               </div>
             </div>
           </div>

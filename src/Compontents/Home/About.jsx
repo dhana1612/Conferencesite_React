@@ -18,7 +18,7 @@ export default function About() {
               The International Conference on Next-Gen Computing and Intelligent Systems (ICNXCIS) is a prominent event that brings together researchers, industry professionals, and academicians to discuss and explore advancements in computing and intelligent systems. The conference focuses on themes such as artificial intelligence, machine learning, IoT, cybersecurity, edge and cloud computing, and sustainable development.
             </p>
             <p className="fs-4" style={{ textIndent: "55px", textAlign: "justify" }}>
-              In 2025, the conference is scheduled to take place on July 21st and 22nd at the PSG Institute of Technology and Applied Research (PSG iTech) in Coimbatore, Tamil Nadu, India. PSG iTech, established in 2014, is renowned for its commitment to academic excellence and industry engagement, making it a fitting venue for this international gathering.
+              In 2025, the conference is scheduled to take place on July 21st and 22nd at the CDPD Institute of Technology and Applied Research (CDPD iTech). CDPD iTech, established in 2025, is renowned for its commitment to academic excellence and industry engagement, making it a fitting venue for this international gathering.
             </p>
             <div className="text-start mt-4">
               <Link className="btn btn-primary px-4 py-2 fs-5 fw-bold" to="/about">

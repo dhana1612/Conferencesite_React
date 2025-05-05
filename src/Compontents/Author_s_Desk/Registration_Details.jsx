@@ -40,23 +40,23 @@ export default function Registration_Details() {
                         <tbody className="fw-semibold">
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">Account Name:</td>
-                                <td className="text-start text-dark">J.K. Jothi Kalpana, Professor, Dept. of Computer Science & Engineering, VRS College of Engineering and Technology, Arasur.</td>
+                                <td className="text-start text-dark">J.K. John , Professor, Dept. of Computer Science & Engineering, DDD College of Engineering and Technology, City.</td>
                             </tr>
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">Account Number:</td>
-                                <td className="text-start text-dark">045100050302269</td>
+                                <td className="text-start text-dark">0400000302269</td>
                             </tr>
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">Branch:</td>
-                                <td className="text-start text-dark">Villupuram</td>
+                                <td className="text-start text-dark">City</td>
                             </tr>
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">IFSC Code:</td>
-                                <td className="text-start text-dark">TMBL0000045</td>
+                                <td className="text-start text-dark">TMBL03000045</td>
                             </tr>
                             <tr>
                                 <td className="text-end text-muted pe-4">MICR:</td>
-                                <td className="text-start text-dark">605060005</td>
+                                <td className="text-start text-dark">60503360005</td>
                             </tr>
                         </tbody>
                     </table>

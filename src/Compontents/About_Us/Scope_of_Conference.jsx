@@ -63,8 +63,8 @@ export default function Scope_of_Conference() {
             </div>
         </div>
 
-       {/* Venue Section */}
-      <section
+{/* Venue Section */}
+<section
         className="container-fluid text-dark p-5"
         style={{
           backgroundImage: "url('../Images/Photo23.jpg')",
@@ -81,11 +81,11 @@ export default function Scope_of_Conference() {
                 <p className="display-5 fw-bold">Where</p>
                 <div className="border-bottom border-success border-3 w-25 mb-3"></div>
                 <p className="mt-2 fs-4 text-center">
-                  PSG Institute of Technology and Applied Research
+                  DDD Institute of Technology and Applied Research
                   <br />
-                  Avinashi Road, Neelambur, Coimbatore,
+                  Street Road, Place, City,
                   <br />
-                  Tamilnadu
+                  Country
                 </p>
               </div>
             </div>
@@ -95,7 +95,7 @@ export default function Scope_of_Conference() {
                 <i className="fa-solid fa-calendar-alt text-success fs-1 mb-3"></i>
                 <p className="display-5 fw-bold">When</p>
                 <div className="border-bottom border-success border-3 w-25 mb-3"></div>
-                <p className="mt-2 fs-4 text-center">23<sup>rd</sup> - 24<sup>th</sup> August, 2024</p>
+                <p className="mt-2 fs-4 text-center">23<sup>rd</sup> - 24<sup>th</sup> August, 2025</p>
               </div>
             </div>
           </div>

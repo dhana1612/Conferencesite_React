@@ -27,7 +27,7 @@ export default function About_the_Conference() {
                   The International Conference on Next-Gen Computing and Intelligent Systems (ICNXCIS) is a prominent event that brings together researchers, industry professionals, and academicians to discuss and explore advancements in computing and intelligent systems. The conference focuses on themes such as artificial intelligence, machine learning, IoT, cybersecurity, edge and cloud computing, and sustainable development.
                 </p>
                 <p className="fs-4" style={{ textIndent: "55px", textAlign: "justify" }}>
-                  In 2025, the conference is scheduled to take place on July 21st and 22nd at the PSG Institute of Technology and Applied Research (PSG iTech) in Coimbatore, Tamil Nadu, India. PSG iTech, established in 2014, is renowned for its commitment to academic excellence and industry engagement, making it a fitting venue for this international gathering.
+                  In 2025, the conference is scheduled to take place on July 21st and 22nd at the CDPD Institute of Technology and Applied Research (CDPD iTech) in City, Place, Country. CDPD iTech, established in 2025, is renowned for its commitment to academic excellence and industry engagement, making it a fitting venue for this international gathering.
                 </p>
               </div>
             </div>
@@ -58,11 +58,11 @@ export default function About_the_Conference() {
                 <p className="display-5 fw-bold">Where</p>
                 <div className="border-bottom border-success border-3 w-25 mb-3"></div>
                 <p className="mt-2 fs-4 text-center">
-                  PSG Institute of Technology and Applied Research
+                  CDPD Institute of Technology and Applied Research
                   <br />
-                  Avinashi Road, Neelambur, Coimbatore,
+                  Street Road, Place, City,
                   <br />
-                  Tamilnadu
+                  Country
                 </p>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function About_the_Conference() {
                 <i className="fa-solid fa-calendar-alt text-success fs-1 mb-3"></i>
                 <p className="display-5 fw-bold">When</p>
                 <div className="border-bottom border-success border-3 w-25 mb-3"></div>
-                <p className="mt-2 fs-4 text-center">23<sup>rd</sup> - 24<sup>th</sup> August, 2024</p>
+                <p className="mt-2 fs-4 text-center">23<sup>rd</sup> - 24<sup>th</sup> August, 2025</p>
               </div>
             </div>
           </div>

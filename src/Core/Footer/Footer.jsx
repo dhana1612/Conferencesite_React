@@ -38,13 +38,13 @@ export const Footer = () => {
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-justify">
               <h6 className="text-uppercase mb-4 text-dark fw-bold fs-4">Contact</h6>
               <p>
-                <i className="fas fa-home mr-3"></i> Neelambur, Coimbatore
+                <i className="fas fa-home mr-3"></i> Abc Road, Sai Street, noida
               </p>
               <p>
-                <i className="fas fa-envelope mr-3"></i> icngcs25@psgitech.ac.in
+                <i className="fas fa-envelope mr-3"></i> icngcs25@cdpditech.ac.in
               </p>
               <p>
-                <i className="fas fa-phone mr-3"></i> +91 98422 62396
+                <i className="fas fa-phone mr-3"></i> 123456789
               </p>
             </div>
 

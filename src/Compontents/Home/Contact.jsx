@@ -146,15 +146,15 @@ export default function Contact() {
                             <div className="contact-information">
                                 <div className="mb-3">
                                     <h5 className="mb-1 text-primary fs-5 fw-bold">Address:</h5>
-                                    <p className="fs-4">Avinashi Road, Neelambur, Coimbatore</p>
+                                    <p className="fs-4">Abc Road, Sai Street, noida</p>
                                 </div>
                                 <div className="mb-3">
                                     <h5 className="mb-1 text-primary fs-5 fw-bold">Phone:</h5>
-                                    <p className="fs-4">+91 98422 62396</p>
+                                    <p className="fs-4">123456789</p>
                                 </div>
                                 <div className="mb-3">
                                     <h5 className="mb-1 text-primary fs-5 fw-bold">Email:</h5>
-                                    <p className="fs-4">icngcs25@psgitech.ac.in</p>
+                                    <p className="fs-4">icngcs25@cdpditech.ac.in</p>
                                 </div>
                             </div>
                         </div>
