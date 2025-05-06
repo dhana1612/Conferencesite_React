@@ -9,7 +9,7 @@ export const Header = () => {
       <header className="bg-black">
         <nav className="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark w-100">
           <div className="container-fluid">
-            <a className="navbar-brand text-white fs-5 ps-4" href="http://localhost:5173/">
+            <a className="navbar-brand text-white fs-5 ps-4" href="https://icngcis.org/">
               <img
                 src="\images\logo.png"
                 alt="ICCNDS Logo"
