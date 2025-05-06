@@ -40,7 +40,7 @@ export default function Registration_Details() {
                         <tbody className="fw-semibold">
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">Account Name:</td>
-                                <td className="text-start text-dark">J.K. John , Professor, Dept. of Computer Science & Engineering, DDD College of Engineering and Technology, City.</td>
+                                <td className="text-start text-dark">J.K. John , Professor, Dept. of Computer Science & Engineering, Abc College of Engineering and Technology, Chennai.</td>
                             </tr>
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">Account Number:</td>
@@ -48,7 +48,7 @@ export default function Registration_Details() {
                             </tr>
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">Branch:</td>
-                                <td className="text-start text-dark">City</td>
+                                <td className="text-start text-dark">Chennai</td>
                             </tr>
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">IFSC Code:</td>

@@ -9,9 +9,9 @@ export const Header = () => {
       <header className="bg-black">
         <nav className="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark w-100">
           <div className="container-fluid">
-            <a className="navbar-brand text-white fs-5 ps-4" href="#">
+            <a className="navbar-brand text-white fs-5 ps-4" href="http://localhost:5173/">
               <img
-                src="/Images/Logo.png"
+                src="\images\logo.png"
                 alt="ICCNDS Logo"
                 height="58"
                 width="130"
@@ -98,14 +98,6 @@ export const Header = () => {
                     Author's Desk
                   </Link>
                   <ul className="dropdown-menu fs-5">
-                    <li>
-                      <Link
-                        className={`dropdown-item ${location.pathname === "/authors/journal-publication" ? "active" : ""}`}
-                        to="/authors/journal-publication"
-                      >
-                        Journal Publication
-                      </Link>
-                    </li>
                     <li>
                       <Link
                         className={`dropdown-item ${location.pathname === "/authors/key-dates" ? "active" : ""}`}

@@ -10,7 +10,7 @@ export default function Speaker() {
         <section
           className="p-5"
           style={{
-            backgroundImage: "url('../Images/Photo13.jpg')",
+            backgroundImage: "url('images/photo13.jpg')",
             backgroundRepeat: "no-repeat",
             objectFit: "fill",
           }}
@@ -23,7 +23,7 @@ export default function Speaker() {
             <div className="row row-cols-1 row-cols-md-4 g-4">
               <div className="col">
                 <div className="card shadow-lg d-flex flex-column h-100">
-                  <img src="Images/s6.png" className="card-img-top" alt="Hollywood Sign on The Hill" />
+                  <img src="images/s6.png" className="card-img-top" alt="Hollywood Sign on The Hill" />
                   <div className="card-body d-flex flex-column">
                     <h4 className="card-title fw-bold">Mona</h4>
                     <p className="card-text fs-5">
@@ -34,7 +34,7 @@ export default function Speaker() {
               </div>
               <div className="col">
                 <div className="card shadow-lg d-flex flex-column h-100">
-                  <img src="Images/s2.png" className="card-img-top" alt="Palm Springs Road" />
+                  <img src="images/s2.png" className="card-img-top" alt="Palm Springs Road" />
                   <div className="card-body d-flex flex-column">
                     <h4 className="card-title fw-bold">John</h4>
                     <p className="card-text fs-5">
@@ -45,7 +45,7 @@ export default function Speaker() {
               </div>
               <div className="col">
                 <div className="card shadow-lg d-flex flex-column h-100">
-                  <img src="Images/s4.png" className="card-img-top" alt="Los Angeles Skyscrapers" />
+                  <img src="images/s4.png" className="card-img-top" alt="Los Angeles Skyscrapers" />
                   <div className="card-body d-flex flex-column">
                     <h4 className="card-title fw-bold">Lisa</h4>
                     <p className="card-text fs-5">
@@ -56,7 +56,7 @@ export default function Speaker() {
               </div>
               <div className="col">
                 <div className="card shadow-lg d-flex flex-column h-100">
-                  <img src="Images/s5.png" className="card-img-top" alt="Los Angeles Skyscrapers" />
+                  <img src="images/s5.png" className="card-img-top" alt="Los Angeles Skyscrapers" />
                   <div className="card-body d-flex flex-column">
                     <h4 className="card-title fw-bold">Kevin</h4>
                     <p className="card-text fs-5">

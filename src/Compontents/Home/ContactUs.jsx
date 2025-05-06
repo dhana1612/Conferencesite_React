@@ -59,7 +59,7 @@ export default function ContactUs() {
             }};
   return (
    <>
-      <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('./Images/Photo22.jpg')", backgroundSize: "cover", backgroundPosition: "center",}}>
+      <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('./images/photo22.jpg')", backgroundSize: "cover", backgroundPosition: "center",}}>
         <div className="mask w-100 h-100  bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
           <div className="text-white text-start px-3 animated slideInDown">
             <h2 className="fw-bold display-5 text-uppercase text-light">Contact Us</h2>
@@ -152,16 +152,16 @@ export default function ContactUs() {
                         <div className="col-12 col-md-4">
                             <div className="contact-information">
                                 <div className="mb-3">
-                                    <h5 className="mb-1 text-primary fs-5 fw-bold">Address:</h5>
-                                    <p className="fs-4">Abc Road, Sai Street, noida</p>
+                                    <h5 className="mb-1 text-primary fs-4 fw-bold">Address:</h5>
+                                    <p className="fs-5">Abc Road, Sai Street, Chennai</p>
                                 </div>
                                 <div className="mb-3">
-                                    <h5 className="mb-1 text-primary fs-5 fw-bold">Phone:</h5>
-                                    <p className="fs-4">123456789</p>
+                                    <h5 className="mb-1 text-primary fs-4 fw-bold">Phone:</h5>
+                                    <p className="fs-5">123456789</p>
                                 </div>
                                 <div className="mb-3">
-                                    <h5 className="mb-1 text-primary fs-5 fw-bold">Email:</h5>
-                                    <p className="fs-4">icngcs25@CDPDitech.ac.in</p>
+                                    <h5 className="mb-1 text-primary fs-4 fw-bold">Email:</h5>
+                                    <p className="fs-5">icngcs@.ac.in</p>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +173,7 @@ export default function ContactUs() {
         {/* <!--MapSection--> */}
         <div>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m181m12!1m3!1d308436.5138084717!2d79.09197384202913!3d12.941258620178797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad3893a209c55b%3A0xb3649fe847b74dca!2sBrain%20Insight!5e1!3m2!1sen!2sin!4v1739039836803!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38608.08970498705!2d80.20416861304467!3d12.896949827501366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525c7c3b310a53%3A0xf1a81050650e77fc!2sNovotel%20Chennai%20OMR!5e1!3m2!1sen!2sin!4v1746557319721!5m2!1sen!2sin"
         width="100%"
         height="450"
         style={{ border: 0 }}

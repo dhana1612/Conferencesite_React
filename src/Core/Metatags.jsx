@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 
 const MetaTags = () => {
   const location = useLocation();
-  const baseUrl = "https://icngcis.org/Images/Photo2.jpg";
+  const baseUrl = "https://icngcis.org/images/Photo2.jpg";
 
   const metaInfo = {
     "/": {

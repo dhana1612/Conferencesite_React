@@ -15,10 +15,10 @@ export default function About() {
         <div className="col-lg-7 col-md-12">
           <div className="about-content-text mb-4 mt-4 about_us">
             <p className="fs-4" style={{ textIndent: "55px", textAlign: "justify" }}>
-              The International Conference on Next-Gen Computing and Intelligent Systems (ICNXCIS) is a prominent event that brings together researchers, industry professionals, and academicians to discuss and explore advancements in computing and intelligent systems. The conference focuses on themes such as artificial intelligence, machine learning, IoT, cybersecurity, edge and cloud computing, and sustainable development.
+              The International Conference on Next-Gen Computing and Intelligent Systems is a prominent event that brings together researchers, industry professionals, and academicians to discuss and explore advancements in computing and intelligent systems. The conference focuses on themes such as artificial intelligence, machine learning, IoT, cybersecurity, edge and cloud computing, and sustainable development.
             </p>
             <p className="fs-4" style={{ textIndent: "55px", textAlign: "justify" }}>
-              In 2025, the conference is scheduled to take place on July 21st and 22nd at the CDPD Institute of Technology and Applied Research (CDPD iTech). CDPD iTech, established in 2025, is renowned for its commitment to academic excellence and industry engagement, making it a fitting venue for this international gathering.
+            In 2025, the conference is scheduled to take place on  August 23rd and 24th at the Institute of Technology and Applied Research in Chennai. ICNXCIS iTech, established in 2025, is renowned for its commitment to academic excellence and industry engagement, making it a fitting venue for this international gathering.
             </p>
             <div className="text-start mt-4">
               <Link className="btn btn-primary px-4 py-2 fs-5 fw-bold" to="/about">
@@ -29,7 +29,7 @@ export default function About() {
         </div>
         {/* Image */}
         <div className="col-lg-5 col-md-12 d-flex justify-content-center mt-4 mt-lg-0">
-          <img src="../Images/Photo1.png" alt="AI Image" className="img-fluid" />
+          <img src="images\photo1.png" alt="AI Image" className="img-fluid" />
         </div>
       </div>
     </div>

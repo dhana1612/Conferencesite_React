@@ -144,17 +144,17 @@ export default function Contact() {
                         </div>
                         <div className="col-12 col-md-4">
                             <div className="contact-information">
-                                <div className="mb-3">
-                                    <h5 className="mb-1 text-primary fs-5 fw-bold">Address:</h5>
-                                    <p className="fs-4">Abc Road, Sai Street, noida</p>
+                            <div className="mb-3">
+                                    <h5 className="mb-1 text-primary fs-4 fw-bold">Address:</h5>
+                                    <p className="fs-5">Abc Road, Sai Street, Chennai</p>
                                 </div>
                                 <div className="mb-3">
-                                    <h5 className="mb-1 text-primary fs-5 fw-bold">Phone:</h5>
-                                    <p className="fs-4">123456789</p>
+                                    <h5 className="mb-1 text-primary fs-4 fw-bold">Phone:</h5>
+                                    <p className="fs-5">123456789</p>
                                 </div>
                                 <div className="mb-3">
-                                    <h5 className="mb-1 text-primary fs-5 fw-bold">Email:</h5>
-                                    <p className="fs-4">icngcs25@cdpditech.ac.in</p>
+                                    <h5 className="mb-1 text-primary fs-4 fw-bold">Email:</h5>
+                                    <p className="fs-5">icngcs@.ac.in</p>
                                 </div>
                             </div>
                         </div>

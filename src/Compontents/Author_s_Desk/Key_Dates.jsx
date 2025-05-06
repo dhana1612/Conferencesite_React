@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Venue } from '../Home/Venue'
 
 export default function Key_Dates() {
   return (
@@ -27,13 +27,13 @@ export default function Key_Dates() {
             {/* Row 2 */}
             <div className="row text-center fw-bold align-items-center py-4 rounded shadow-lg mb-3 alert alert-info shadow-sm fw-semibold">
                 <div className="col-6 border-end border-dark">Full Paper Submission Deadline</div>
-                <div className="col-6">August 30, 2025</div>
+                <div className="col-6">July 7, 2025</div>
             </div>
 
             {/* Row 3 */}
             <div className="row text-center fw-bold align-items-center py-4 rounded shadow-lg mb-3 alert alert-warning shadow-sm fw-semibold">
                 <div className="col-6 border-end border-white">Notification of Acceptance</div>
-                <div className="col-6">June 16, 2025</div>
+                <div className="col-6">July 16, 2025</div>
             </div>
 
             {/* Row 4 */}
@@ -45,53 +45,13 @@ export default function Key_Dates() {
             {/* Row 5 */}
             <div className="row text-center fw-bold align-items-center py-4 rounded shadow-lg mb-3 alert alert-warning shadow-sm fw-semibold">
                 <div className="col-6 border-end border-dark">Conference Dates</div>
-                <div className="col-6">July 21-22, 2025</div>
+                <div className="col-6">August 23-24, 2025</div>
             </div>
         </div>
 
              {/* Venue Section */}
-             <section
-                className="container-fluid text-dark p-5"
-                style={{
-                  backgroundImage: "url('../Images/Photo23.jpg')",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              >
-                <div className="container p-5 rounded-3 box-shadow">
-                  <div className="row">
-                    {/* Where Section */}
-                    <div className="col-12 col-md-6 d-flex justify-content-center">
-                      <div className="d-flex flex-column align-items-center align-items-start">
-                        <i className="fa-solid fa-map-marker-alt text-success fs-1 mb-3"></i>
-                        <p className="display-5 fw-bold">Where</p>
-                        <div className="border-bottom border-success border-3 w-25 mb-3"></div>
-                        <p className="mt-2 fs-4 text-center">
-                          DDD Institute of Technology and Applied Research
-                          <br />
-                          Street Road, Place, City,
-                          <br />
-                          Country
-                        </p>
-                      </div>
-                    </div>
-                    {/* When Section */}
-                    <div className="col-12 col-md-6 d-flex justify-content-center">
-                      <div className="d-flex flex-column align-items-center align-items-start">
-                        <i className="fa-solid fa-calendar-alt text-success fs-1 mb-3"></i>
-                        <p className="display-5 fw-bold">When</p>
-                        <div className="border-bottom border-success border-3 w-25 mb-3"></div>
-                        <p className="mt-2 fs-4 text-center">23<sup>rd</sup> - 24<sup>th</sup> August, 2025</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="text-center mt-4">
-                    <Link to="/authors/registration-details" className="btn bg-success text-light fs-4 btn-lg">
-                      Register Here
-                    </Link>
-                  </div>
-                </div>
-              </section>
+             <Venue/>
+            
     </>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import MetaTags from '../../Core/Metatags'
+import { Venue } from '../Home/Venue'
 
 export default function Scope_of_Conference() {
   return (
@@ -21,7 +22,7 @@ export default function Scope_of_Conference() {
                     <div className="p-4">
                         <p className="text-primary fw-bold fs-2">Computing, Networking & Data Science</p>
                         <p className="mt-3 fs-4 scope">
-                            The International Conference on Next-Gen Computing and Intelligent Systems (ICNXCIS) focuses on cutting-edge advancements and research in computing technologies and intelligent systems. It serves as a platform for researchers, academicians, and industry experts to discuss emerging trends, challenges, and applications in next-generation computing.
+                            The International Conference on Next-Gen Computing and Intelligent Systems focuses on cutting-edge advancements and research in computing technologies and intelligent systems. It serves as a platform for researchers, academicians, and industry experts to discuss emerging trends, challenges, and applications in next-generation computing.
                         </p>
                         <div className="row mt-4">
                             <div className="col-md-4 fs-4 my-4">
@@ -64,48 +65,7 @@ export default function Scope_of_Conference() {
         </div>
 
 {/* Venue Section */}
-<section
-        className="container-fluid text-dark p-5"
-        style={{
-          backgroundImage: "url('../Images/Photo23.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="container p-5 rounded-3 box-shadow">
-          <div className="row">
-            {/* Where Section */}
-            <div className="col-12 col-md-6 d-flex justify-content-center">
-              <div className="d-flex flex-column align-items-center align-items-start">
-                <i className="fa-solid fa-map-marker-alt text-success fs-1 mb-3"></i>
-                <p className="display-5 fw-bold">Where</p>
-                <div className="border-bottom border-success border-3 w-25 mb-3"></div>
-                <p className="mt-2 fs-4 text-center">
-                  DDD Institute of Technology and Applied Research
-                  <br />
-                  Street Road, Place, City,
-                  <br />
-                  Country
-                </p>
-              </div>
-            </div>
-            {/* When Section */}
-            <div className="col-12 col-md-6 d-flex justify-content-center">
-              <div className="d-flex flex-column align-items-center align-items-start">
-                <i className="fa-solid fa-calendar-alt text-success fs-1 mb-3"></i>
-                <p className="display-5 fw-bold">When</p>
-                <div className="border-bottom border-success border-3 w-25 mb-3"></div>
-                <p className="mt-2 fs-4 text-center">23<sup>rd</sup> - 24<sup>th</sup> August, 2025</p>
-              </div>
-            </div>
-          </div>
-          <div className="text-center mt-4">
-            <Link to="/authors/registration-details" className="btn bg-success text-light fs-4 btn-lg">
-              Register Here
-            </Link>
-          </div>
-        </div>
-      </section>
+ <Venue/>
     </>
   )
 }

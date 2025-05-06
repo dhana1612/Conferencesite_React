@@ -8,7 +8,7 @@ export default function HeroSection() {
       id="intro-example"
       className="img-fluid animated fadeIn"
       style={{
-        backgroundImage: "url('Images/Photo2.jpg')",
+        backgroundImage: "url('images/photo2.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh",
@@ -20,12 +20,12 @@ export default function HeroSection() {
           <h1 className="mb-3 text-center title">
             7th International Conference on Next-Gen Computing <br />and Intelligent Systems
           </h1>
-          <h5 className="mb-3 display-6 text-center text-warning">7th August, 2025</h5>
+          <h5 className="mb-3 display-6 text-center text-warning">23th August, 2025</h5>
           <div className="d-flex justify-content-center">
             <Link
               className="btn btn-lg m-2 startbutton text-dark fs-4 fw-bold animated pulse infinite"
               style={{ backgroundColor: "white", animationDuration: "1.5s" }}
-              to="/NewPaperSubmission"
+              to="/authors/registration-details"
               role="button"
             >
               Register Here

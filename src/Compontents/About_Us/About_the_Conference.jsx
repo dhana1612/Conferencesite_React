@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import MetaTags from '../../Core/Metatags'
+import { Venue } from '../Home/Venue'
 
 export default function About_the_Conference() {
   return (
     <>
     <MetaTags/>
-      <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('./Images/Photo18.jpeg')", backgroundSize: "cover", backgroundPosition: "center",}}>
+      <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('./images/photo18.jpeg')", backgroundSize: "cover", backgroundPosition: "center",}}>
         <div className="mask w-100 h-100  bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
           <div className="text-white text-start px-3 animated slideInDown">
             <h2 className="fw-bold display-5 text-uppercase text-light">About Conference</h2>
@@ -24,65 +25,24 @@ export default function About_the_Conference() {
             <div className="col-lg-7 col-md-12">
               <div className="about-content-text mb-4 mt-4 about_us">
                 <p className="fs-4" style={{ textIndent: "55px", textAlign: "justify" }}>
-                  The International Conference on Next-Gen Computing and Intelligent Systems (ICNXCIS) is a prominent event that brings together researchers, industry professionals, and academicians to discuss and explore advancements in computing and intelligent systems. The conference focuses on themes such as artificial intelligence, machine learning, IoT, cybersecurity, edge and cloud computing, and sustainable development.
+                  The International Conference on Next-Gen Computing and Intelligent Systems is a prominent event that brings together researchers, industry professionals, and academicians to discuss and explore advancements in computing and intelligent systems. The conference focuses on themes such as artificial intelligence, machine learning, IoT, cybersecurity, edge and cloud computing, and sustainable development.
                 </p>
                 <p className="fs-4" style={{ textIndent: "55px", textAlign: "justify" }}>
-                  In 2025, the conference is scheduled to take place on July 21st and 22nd at the CDPD Institute of Technology and Applied Research (CDPD iTech) in City, Place, Country. CDPD iTech, established in 2025, is renowned for its commitment to academic excellence and industry engagement, making it a fitting venue for this international gathering.
+                  In 2025, the conference is scheduled to take place on August 23rd and 24th at the Institute of Technology and Applied Research in Chennai. ICNXCIS iTech, established in 2025, is renowned for its commitment to academic excellence and industry engagement, making it a fitting venue for this international gathering.
                 </p>
               </div>
             </div>
 
             {/* Image */}
             <div className="col-lg-5 col-md-12 d-flex justify-content-center mt-4 mt-lg-0">
-              <img src="../Images/Photo1.png" alt="AI Image" className="img-fluid" />
+              <img src="../images/photo1.png" alt="AI Image" className="img-fluid" />
             </div>
           </div>
         </div>
       </section>
 
       {/* Venue Section */}
-      <section
-        className="container-fluid text-dark p-5"
-        style={{
-          backgroundImage: "url('../Images/Photo23.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="container p-5 rounded-3 box-shadow">
-          <div className="row">
-            {/* Where Section */}
-            <div className="col-12 col-md-6 d-flex justify-content-center">
-              <div className="d-flex flex-column align-items-center align-items-start">
-                <i className="fa-solid fa-map-marker-alt text-success fs-1 mb-3"></i>
-                <p className="display-5 fw-bold">Where</p>
-                <div className="border-bottom border-success border-3 w-25 mb-3"></div>
-                <p className="mt-2 fs-4 text-center">
-                  CDPD Institute of Technology and Applied Research
-                  <br />
-                  Street Road, Place, City,
-                  <br />
-                  Country
-                </p>
-              </div>
-            </div>
-            {/* When Section */}
-            <div className="col-12 col-md-6 d-flex justify-content-center">
-              <div className="d-flex flex-column align-items-center align-items-start">
-                <i className="fa-solid fa-calendar-alt text-success fs-1 mb-3"></i>
-                <p className="display-5 fw-bold">When</p>
-                <div className="border-bottom border-success border-3 w-25 mb-3"></div>
-                <p className="mt-2 fs-4 text-center">23<sup>rd</sup> - 24<sup>th</sup> August, 2025</p>
-              </div>
-            </div>
-          </div>
-          <div className="text-center mt-4">
-            <Link to="/authors/registration-details" className="btn bg-success text-light fs-4 btn-lg">
-              Register Here
-            </Link>
-          </div>
-        </div>
-      </section>
+      <Venue/>
     </>
   )
 }
