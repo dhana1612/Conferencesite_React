@@ -15,10 +15,10 @@ export default function About() {
         <div className="col-lg-7 col-md-12">
           <div className="about-content-text mb-4 mt-4 about_us">
             <p className="fs-4" style={{ textIndent: "55px", textAlign: "justify" }}>
-              The International Conference on Next-Gen Computing and Intelligent Systems is a prominent event that brings together researchers, industry professionals, and academicians to discuss and explore advancements in computing and intelligent systems. The conference focuses on themes such as artificial intelligence, machine learning, IoT, cybersecurity, edge and cloud computing, and sustainable development.
+            The International Conference on Next-Gen Computing and Intelligent Systems, a premier platform for researchers, academicians, industry professionals, and students to come together and explore the latest innovations and emerging trends in the field of advanced computing and intelligent technologies.
             </p>
             <p className="fs-4" style={{ textIndent: "55px", textAlign: "justify" }}>
-            In 2025, the conference is scheduled to take place on  August 23rd and 24th at the Institute of Technology and Applied Research in Chennai. ICNXCIS iTech, established in 2025, is renowned for its commitment to academic excellence and industry engagement, making it a fitting venue for this international gathering.
+             This conference aims to foster collaboration and knowledge exchange in areas such as Artificial Intelligence, Machine Learning, Data Science, Cloud Computing, Internet of Things (IoT), Cybersecurity, Quantum Computing, and other next-generation computing paradigms. It will serve as a forum to present cutting-edge research, share insights, and discuss the practical challenges and solutions shaping the future of intelligent systems.
             </p>
             <div className="text-start mt-4">
               <Link className="btn btn-primary px-4 py-2 fs-5 fw-bold" to="/about">

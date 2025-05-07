@@ -146,7 +146,7 @@ export default function Contact() {
                             <div className="contact-information">
                             <div className="mb-3">
                                     <h5 className="mb-1 text-primary fs-4 fw-bold">Address:</h5>
-                                    <p className="fs-5">Abc Road, Sai Street, Chennai</p>
+                                    <p className="fs-5"> Chennai</p>
                                 </div>
                                 <div className="mb-3">
                                     <h5 className="mb-1 text-primary fs-4 fw-bold">Phone:</h5>
@@ -154,7 +154,7 @@ export default function Contact() {
                                 </div>
                                 <div className="mb-3">
                                     <h5 className="mb-1 text-primary fs-4 fw-bold">Email:</h5>
-                                    <p className="fs-5">icngcs@.ac.in</p>
+                                    <p className="fs-5"> info@icngcs.org</p>
                                 </div>
                             </div>
                         </div>

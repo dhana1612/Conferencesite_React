@@ -9,7 +9,7 @@ export default function Organizing_Committee() {
        <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('https://wallpapers.com/images/hd/pile-of-books-on-blue-background-3gp0wweu63urx8eg.jpg')", backgroundSize: "cover", backgroundPosition: "center",}}>
         <div className="mask w-100 h-100  bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
           <div className="text-white text-start px-3 animated slideInDown">
-            <h2 className="fw-bold display-5 text-uppercase text-light">Organizing Committee</h2>
+            <h2 className="fw-bold display-5 text-uppercase text-light">Technical Committee</h2>
             <div className="divider mx-auto my-3"></div>
           </div>
         </div>

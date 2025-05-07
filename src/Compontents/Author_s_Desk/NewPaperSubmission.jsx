@@ -63,96 +63,84 @@ export default function NewPaperSubmission() {
 
       {/* Submission Form */}
       <div className="container my-5">
-        <div className="row justify-content-center">
-          <div className="text-start px-3">
-            <h2 className="fw-bold text-start display-6 text-uppercase text-primary">Paper Submission</h2>
-          </div>
-          <p className="pb-4 fs-4 text-justify">
-            Welcome to the paper submission portal. Please fill out the required details and upload your research paper for review.
-            Ensure that all information provided is accurate to facilitate smooth processing.
-          </p>
+        <div className="row justify-content-center flex-lg-row flex-column-reverse">
+          {/* Form Section */}
+          <div className="col-lg-6 col-12 fs-4 border border-2 rounded py-5">
+            <div className="container">
+              <h2 className="text-center text-primary">Submit Your Paper</h2>
+              {message && <div className="alert alert-info">{message}</div>}
 
-          <div className="row">
-            {/* Form Section */}
-            <div className="col-lg-6 col-12 fs-4 border border-2 rounded py-5">
-              <div className="container">
-                <h2 className="text-center text-primary">Submit Your Paper</h2>
-                {message && <div className="alert alert-info">{message}</div>}
+              <form onSubmit={handleSubmit} encType="multipart/form-data">
+                <div className="mb-3">
+                  <label className="form-label">Paper Title *</label>
+                  <input type="text" className="form-control" name="Papertitle" value={formData.Papertitle} onChange={handleChange} required />
+                </div>
 
-                <form onSubmit={handleSubmit} encType="multipart/form-data">
-                  <div className="mb-3">
-                    <label className="form-label">Paper Title *</label>
-                    <input type="text" className="form-control" name="Papertitle" value={formData.Papertitle} onChange={handleChange} required />
-                  </div>
+                <div className="mb-3">
+                  <label className="form-label">Author Full Name *</label>
+                  <input type="text" className="form-control" name="AuthorFullName" value={formData.AuthorFullName} onChange={handleChange} required />
+                </div>
 
-                  <div className="mb-3">
-                    <label className="form-label">Author Full Name *</label>
-                    <input type="text" className="form-control" name="AuthorFullName" value={formData.AuthorFullName} onChange={handleChange} required />
-                  </div>
+                <div className="mb-3">
+                  <label className="form-label">Author Mobile Number *</label>
+                  <input type="text" className="form-control" name="AuthorMobile" value={formData.AuthorMobile} onChange={handleChange} required />
+                </div>
 
-                  <div className="mb-3">
-                    <label className="form-label">Author Mobile Number *</label>
-                    <input type="text" className="form-control" name="AuthorMobile" value={formData.AuthorMobile} onChange={handleChange} required />
-                  </div>
+                <div className="mb-3">
+                  <label className="form-label">Author Email *</label>
+                  <input type="email" className="form-control" name="AuthorEmail" value={formData.AuthorEmail} onChange={handleChange} required />
+                </div>
 
-                  <div className="mb-3">
-                    <label className="form-label">Author Email *</label>
-                    <input type="email" className="form-control" name="AuthorEmail" value={formData.AuthorEmail} onChange={handleChange} required />
-                  </div>
+                <div className="mb-3">
+                  <label className="form-label">Author Institution *</label>
+                  <input type="text" className="form-control" name="AuthorInstitution" value={formData.AuthorInstitution} onChange={handleChange} required />
+                </div>
 
-                  <div className="mb-3">
-                    <label className="form-label">Author Institution *</label>
-                    <input type="text" className="form-control" name="AuthorInstitution" value={formData.AuthorInstitution} onChange={handleChange} required />
-                  </div>
+                <div className="mb-3">
+                  <label className="form-label">Author Category *</label>
+                  <select className="form-select" name="AuthorCategory" value={formData.AuthorCategory} onChange={handleChange} required>
+                    <option value="">-- Select Category --</option>
+                    <option value="student">Student</option>
+                    <option value="faculty">Faculty</option>
+                    <option value="researcher">Researcher</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
 
-                  <div className="mb-3">
-                    <label className="form-label">Author Category *</label>
-                    <select className="form-select" name="AuthorCategory" value={formData.AuthorCategory} onChange={handleChange} required>
-                      <option value="">-- Select Category --</option>
-                      <option value="student">Student</option>
-                      <option value="faculty">Faculty</option>
-                      <option value="researcher">Researcher</option>
-                      <option value="others">Others</option>
-                    </select>
-                  </div>
+                <div className="mb-3">
+                  <label className="form-label">Upload Paper (PDF/DOC) *</label>
+                  <input type="file" className="form-control" name="PaperFile" accept=".pdf,.doc,.docx" onChange={handleChange} required />
+                </div>
 
-                  <div className="mb-3">
-                    <label className="form-label">Upload Paper (PDF/DOC) *</label>
-                    <input type="file" className="form-control" name="PaperFile" accept=".pdf,.doc,.docx" onChange={handleChange} required />
-                  </div>
-
-                  <button type="submit" className="btn btn-primary w-100">Submit Paper</button>
-                </form>
-              </div>
+                <button type="submit" className="btn btn-primary w-100">Submit Paper</button>
+              </form>
             </div>
+          </div>
 
-            {/* Submission Guidelines */}
-            <div className="col-lg-6 col-12 mt-4 mt-lg-0">
-              <div className="bg-light p-5 rounded shadow-lg" style={{ fontSize: '1.25rem' }}>
-                <h2 className="fs-3 fw-bold mb-4 text-primary">Submission Guidelines</h2>
-                <ul className="list-unstyled text-secondary">
-                  <li>✅ Ensure all author details are correctly filled.</li>
-                  <li>✅ Upload a PDF or Word document of the paper.</li>
-                  <li>✅ Only one submission per author will be accepted.</li>
-                  <li>✅ Follow the formatting guidelines provided.</li>
-                </ul>
-                <h2 className="fs-3 fw-bold mt-5 mb-4 text-primary">Important Notes</h2>
-                <ul className="list-unstyled text-secondary">
-                  <li>⚠ Verify the accuracy of the contact details before submission.</li>
-                  <li>⚠ The first author will be contacted for further correspondence.</li>
-                  <li>⚠ Submissions must be made before the deadline date.</li>
-                  <li>⚠ Late submissions may not be considered for review.</li>
-                </ul>
-              </div>
+          {/* Submission Guidelines */}
+          <div className="col-lg-6 col-12 mt-4 mt-lg-0">
+            <div className="bg-light p-5 rounded shadow-lg" style={{ fontSize: '1.25rem' }}>
+              <h2 className="fs-3 fw-bold mb-4 text-primary">Submission Guidelines</h2>
+              <ul className="list-unstyled text-secondary">
+                <li>✅ Ensure all author details are correctly filled.</li>
+                <li>✅ Upload a PDF or Word document of the paper.</li>
+                <li>✅ Only one submission per author will be accepted.</li>
+                <li>✅ Follow the formatting guidelines provided.</li>
+              </ul>
+              <h2 className="fs-3 fw-bold mt-5 mb-4 text-primary">Important Notes</h2>
+              <ul className="list-unstyled text-secondary">
+                <li>⚠ Verify the accuracy of the contact details before submission.</li>
+                <li>⚠ The first author will be contacted for further correspondence.</li>
+                <li>⚠ Submissions must be made before the deadline date.</li>
+                <li>⚠ Late submissions may not be considered for review.</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
 
-
-
-{/* Venue Section */}
-   <Venue/>
+      {/* Venue Section */}
+      <Venue />
     </>
   );
 }

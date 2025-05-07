@@ -73,7 +73,7 @@ export const Header = () => {
                         className={`dropdown-item ${location.pathname === "/about/Organizing_Committee" ? "active" : ""}`}
                         to="/about/Organizing_Committee"
                       >
-                        Organizing Committee
+                        Technical Committee
                       </Link>
                     </li>
                     <li>
@@ -130,7 +130,7 @@ export const Header = () => {
                     className={`nav-link text-white ${location.pathname === "/Speaker" ? "active" : ""}`}
                     to="/Speaker"
                   >
-                    Speakers
+                    Key Invites
                   </Link>
                 </li>
                 <li className="nav-item pe-4">
