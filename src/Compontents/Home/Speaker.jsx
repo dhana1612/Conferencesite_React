@@ -22,53 +22,49 @@ export default function Speaker() {
             </h5>
             <div className="row row-cols-1 row-cols-md-4 g-4">
               <div className="col">
-                <div className="card shadow-lg d-flex flex-column h-100">
+                <div className="card shadow-lg d-flex flex-column h-95">
                   <img src="images/avator1.png" className="card-img-top" alt="Hollywood Sign on The Hill" />
-                  <div className="card-body d-flex flex-column">
-                    <h4 className="card-title fw-bold">Mona</h4>
-                    <p className="card-text fs-5">
-                      A speaker should have deep knowledge and experience in their field
-                    </p>
+                  <div className="card-body d-flex flex-column text-center">
+                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>Mona lisa</h4>
+                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>gASP / Production Eng</p>
+                    <p className="card-text fs-6" style={{ marginBottom: '0' }}>Chennai</p>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card shadow-lg d-flex flex-column h-100">
+                <div className="card shadow-lg d-flex flex-column h-95">
                   <img src="images/avator2.png" className="card-img-top" alt="Palm Springs Road" />
-                  <div className="card-body d-flex flex-column">
-                    <h4 className="card-title fw-bold">John</h4>
-                    <p className="card-text fs-5">
-                      A great speaker captivates the audience with their energy and storytelling
-                    </p>
+                  <div className="card-body d-flex flex-column text-center">
+                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>John luther</h4>
+                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>ASP / Production Engg</p>
+                    <p className="card-text fs-6" style={{ marginBottom: '0' }}>Chennai</p>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card shadow-lg d-flex flex-column h-100">
+                <div className="card shadow-lg d-flex flex-column h-95">
                   <img src="images/avator1.png" className="card-img-top" alt="Los Angeles Skyscrapers" />
-                  <div className="card-body d-flex flex-column">
-                    <h4 className="card-title fw-bold">Lisa</h4>
-                    <p className="card-text fs-5">
-                      A speaker should exude confidence and authority on their topic.
-                    </p>
+                  <div className="card-body d-flex flex-column text-center">
+                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>Prof. Sophia Patel</h4>
+                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>ASP / Production Engg</p>
+                    <p className="card-text fs-6" style={{ marginBottom: '0' }}>Chennai</p>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card shadow-lg d-flex flex-column h-100">
+                <div className="card shadow-lg d-flex flex-column h-95">
                   <img src="images/avator2.png" className="card-img-top" alt="Los Angeles Skyscrapers" />
-                  <div className="card-body d-flex flex-column">
-                    <h4 className="card-title fw-bold">Kevin</h4>
-                    <p className="card-text fs-5">
-                      Good speakers interact with and relate to their audience.
-                    </p>
+                  <div className="card-body d-flex flex-column text-center">
+                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>Kevin Brooks</h4>
+                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>ASP / Production Engg</p>
+                    <p className="card-text fs-6" style={{ marginBottom: '0' }}>Chennai</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="text-start mt-4">
               <Link className="btn btn-primary px-4 py-2 fs-5 fw-bold" to="/Speaker">
-                More Speaker
+                More
               </Link>
             </div>
           </div>

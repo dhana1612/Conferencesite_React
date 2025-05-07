@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
@@ -22,15 +23,23 @@ export const Footer = () => {
             </div>
             <hr className="w-100 clearfix d-md-none" />
 
+
+             {/* Quick Links */}
+             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 className="text-uppercase mb-4 text-dark fw-bold fs-4">General</h6>
+              <p><Link  to="https://icngcis.org/" className="text-white text-decoration-none">Home</Link></p>
+              <p><Link  to="/about" className="text-white text-decoration-none"> About the Conference</Link></p>
+              <p><Link  to="/about/Scope" className="text-white text-decoration-none">Scope of Conference</Link></p>
+              <p><Link  to="/Speaker" className="text-white text-decoration-none"> Key Invites</Link></p>
+            </div>
+
             {/* Topic */}
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 text-dark fw-bold fs-4">
-                Topics
+              ConfInfo
               </h6>
-              <p>Big Data Analytics</p>
-              <p>Internet of Things</p>
-              <p>Green Computing</p>
-              <p>Cloud Computing</p>
+              <p><Link  to="/authors/registration-details" className="text-white text-decoration-none">Registration Details</Link></p>
+              <p><Link  to="/authors/new-paper-submissions" className="text-white text-decoration-none"> Paper Submission</Link></p>
             </div>
             <hr className="w-100 clearfix d-md-none" />
 
