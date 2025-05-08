@@ -47,7 +47,7 @@ export const Footer = () => {
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-justify">
               <h6 className="text-uppercase mb-4 text-dark fw-bold fs-4">Contact</h6>
               <p>
-                <i className="fas fa-home mr-3"></i> Chennai
+                <i className="fas fa-home mr-3"></i> Chennai, India.
               </p>
               <p>
                 <i className="fas fa-envelope mr-3"></i> info@icngcs.org
@@ -99,7 +99,14 @@ export const Footer = () => {
       </div>
 
       <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
-        © 2025 ICNXCIS
+        <a 
+          href="https://icngcis.org" 
+          className="text-white text-decoration-none"
+          target="" 
+          rel="noopener noreferrer"
+        >
+          © 2025 ICNXCIS. All rights reserved.
+        </a>
       </div>
     </footer>
    </>

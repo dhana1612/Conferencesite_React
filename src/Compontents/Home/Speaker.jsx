@@ -25,8 +25,8 @@ export default function Speaker() {
                 <div className="card shadow-lg d-flex flex-column h-95">
                   <img src="images/avator1.png" className="card-img-top" alt="Hollywood Sign on The Hill" />
                   <div className="card-body d-flex flex-column text-center">
-                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>Mona lisa</h4>
-                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>gASP / Production Eng</p>
+                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>Person</h4>
+                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>Position</p>
                     <p className="card-text fs-6" style={{ marginBottom: '0' }}>Chennai</p>
                   </div>
                 </div>
@@ -35,8 +35,8 @@ export default function Speaker() {
                 <div className="card shadow-lg d-flex flex-column h-95">
                   <img src="images/avator2.png" className="card-img-top" alt="Palm Springs Road" />
                   <div className="card-body d-flex flex-column text-center">
-                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>John luther</h4>
-                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>ASP / Production Engg</p>
+                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>Person</h4>
+                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>Position</p>
                     <p className="card-text fs-6" style={{ marginBottom: '0' }}>Chennai</p>
                   </div>
                 </div>
@@ -45,8 +45,8 @@ export default function Speaker() {
                 <div className="card shadow-lg d-flex flex-column h-95">
                   <img src="images/avator1.png" className="card-img-top" alt="Los Angeles Skyscrapers" />
                   <div className="card-body d-flex flex-column text-center">
-                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>Prof. Sophia Patel</h4>
-                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>ASP / Production Engg</p>
+                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>Person</h4>
+                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>Position</p>
                     <p className="card-text fs-6" style={{ marginBottom: '0' }}>Chennai</p>
                   </div>
                 </div>
@@ -55,8 +55,8 @@ export default function Speaker() {
                 <div className="card shadow-lg d-flex flex-column h-95">
                   <img src="images/avator2.png" className="card-img-top" alt="Los Angeles Skyscrapers" />
                   <div className="card-body d-flex flex-column text-center">
-                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>Kevin Brooks</h4>
-                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>ASP / Production Engg</p>
+                    <h4 className="card-title fw-bold" style={{ marginBottom: '0.5rem' }}>Person</h4>
+                    <p className="card-text fs-5" style={{ marginBottom: '0.3rem' }}>Position</p>
                     <p className="card-text fs-6" style={{ marginBottom: '0' }}>Chennai</p>
                   </div>
                 </div>

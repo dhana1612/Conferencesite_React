@@ -21,7 +21,7 @@ export default function Organizing_Committee() {
                 <h4 className="bg-primary text-white py-2 rounded-full px-4 mx-auto text-center max-w-sm sm:max-w-sm fs-2">Chairman</h4>
                 <div className="card mt-3 shadow-sm mx-5">
                     <div className="card-body fs-5">
-                        Dr. S. Elumalai, M.E., Ph.D., Principal
+                       Name, Position, Department
                     </div>
                 </div>
             </div>
@@ -32,10 +32,10 @@ export default function Organizing_Committee() {
                 <div className="card mt-3 shadow-sm mx-5">
                     <div className="card-body fs-5">
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Dr. J. Peter, M.E., Ph.D., Professor / ECE</li>
-                            <li className="list-group-item">Dr. G. Lisa, M.E., Ph.D., Professor & Head / MECH</li>
-                            <li className="list-group-item">Dr. J.K. Diayana, M.Tech., Ph.D., Professor / CSE</li>
-                            <li className="list-group-item">Dr. S. John, M.E., Ph.D., Coordinator / S&H</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
                         </ul>
                     </div>
                 </div>
@@ -47,10 +47,10 @@ export default function Organizing_Committee() {
                 <div className="card mt-3 shadow-sm mx-5">
                     <div className="card-body fs-5">
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Mr. G. Jack, HOD / ECE</li>
-                            <li className="list-group-item">Mr. K. Vasanth, HOD / CSE</li>
-                            <li className="list-group-item">Mr. S. Johnarthan, HOD / EEE</li>
-                            <li className="list-group-item">Mr. A. Harish, HOD / CIVIL</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
                         </ul>
                     </div>
                 </div>
@@ -62,10 +62,10 @@ export default function Organizing_Committee() {
                 <div className="card mt-3 shadow-sm mx-5 fs-5">
                     <div className="card-body">
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Mr. N. Peter, Assistant Professor / CSE</li>
-                            <li className="list-group-item">Mr. P. John, Assistant Professor / ECE</li>
-                            <li className="list-group-item">Mr. N. Varun, Assistant Professor / MEC</li>
-                            <li className="list-group-item">Mr. R. Jack, Assistant Professor / EEE</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
                         </ul>
                     </div>
                 </div>
@@ -77,11 +77,11 @@ export default function Organizing_Committee() {
                 <div className="card mt-3 shadow-sm mx-5">
                     <div className="card-body fs-5">
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Mr. C. Prasath, Associate Professor / MECH</li>
-                            <li className="list-group-item">Mr. B. Dhana, Assistant Professor / EEE</li>
-                            <li className="list-group-item">Mrs. T. Chandra, Assistant Professor / ECE</li>
-                            <li className="list-group-item">Mr. S. Malai, Assistant Professor / CSE</li>
-                            <li className="list-group-item">Mrs. S Sahana , Assistant Professor / CIVIL</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
+                            <li className="list-group-item">Name, Position, Department</li>
                         </ul>
                     </div>
                 </div>

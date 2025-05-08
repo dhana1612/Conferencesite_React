@@ -40,7 +40,8 @@ export default function Registration_Details() {
                         <tbody className="fw-semibold">
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">Account Name:</td>
-                                <td className="text-start text-dark">J.K. John , Professor, Dept. of Computer Science & Engineering, Abc College of Engineering and Technology, Chennai.</td>
+                                <td className="text-start text-dark">International Conference on Next-Gen Computing
+                                and Intelligent Systems, Chennai.</td>
                             </tr>
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">Account Number:</td>

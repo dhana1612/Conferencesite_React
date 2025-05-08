@@ -27,7 +27,7 @@ export default function Scope_of_Conference() {
                         <div className="row mt-4">
                             <div className="col-md-4 fs-4 my-4">
                                 <div className="bg-white bg-opacity-50 backdrop-blur p-3 rounded-3 shadow text-center transition-transform">
-                                    <div className="fs-2 text-primary mb-2">🤖</div>
+                                    
                                     <h5 className="fs-4 text-primary fw-bold">AI & ML</h5>
                                     <ul className="list-unstyled text-start d-inline-block">
                                         <li><span className="text-primary fw-bold">&bull;</span> Deep Learning & Neural Networks</li>
@@ -38,7 +38,7 @@ export default function Scope_of_Conference() {
                             </div>
                             <div className="col-md-4 fs-4 my-4">
                                 <div className="bg-white bg-opacity-50 backdrop-blur p-3 rounded-3 shadow text-center transition-transform">
-                                    <div className="fs-2 text-primary mb-2">🌐</div>
+                                    
                                     <h5 className="fs-4 text-primary fw-bold">IOT</h5>
                                     <ul className="list-unstyled text-start d-inline-block">
                                         <li><span className="text-primary fw-bold">&bull;</span> Smart Cities & Smart Homes</li>
@@ -49,7 +49,7 @@ export default function Scope_of_Conference() {
                             </div>
                             <div className="col-md-4 fs-4 my-4">
                                 <div className="bg-white bg-opacity-50 backdrop-blur p-3 rounded-3 shadow text-center transition-transform">
-                                    <div className="fs-2 text-primary mb-2">📊</div>
+                                   
                                     <h5 className="fs-4 text-primary fw-bold">BDA</h5>
                                     <ul className="list-unstyled text-start d-inline-block">
                                         <li><span className="text-primary fw-bold">&bull;</span> Data Mining & Predictive Analytics</li>

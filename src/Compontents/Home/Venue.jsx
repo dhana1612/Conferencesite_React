@@ -21,9 +21,10 @@ export const Venue = () => {
                 <p className="display-5 fw-bold">Where?</p>
                 <div className="border-bottom border-success border-3 w-25 mb-3"></div>
                 <p className="mt-2 fs-4 text-center">
-                  Institute of Technology and Applied Research
+                International Conference on Next-Gen Computing
+                and Intelligent Systems
                   <br />
-                  Gandhi Nagar, Chennai, Tamil Nadu, India
+                  Chennai, Tamil Nadu, India
                 </p>
               </div>
             </div>

@@ -28,16 +28,14 @@ export default function Editorial_Board() {
         <div className="row justify-content-center mb-4 fs-5">
           {[
             {
-              name: "Dr. B. Mona lisa",
-              designation: "ASP / Mechanical Engg.",
-              institute: "AAA University,",
-              location: "Al, Arabia."
+              name: "Person",
+              designation: "Position",
+              location: "Chennai, India."
             },
             {
-              name: "Dr. D. Kevin",
-              designation: "ASP / Production Engg.",
-              institute: "Institute of Technology,",
-              location: "City."
+              name: "Person 2",
+              designation: "Position",
+             location: "Chennai, India."
             }
           ].map((member, index) => (
             <div
@@ -47,8 +45,6 @@ export default function Editorial_Board() {
               <strong className="text-dark fs-4">{member.name}</strong>
               <br />
               <span className="text-muted">{member.designation}</span>
-              <br />
-              {member.institute}
               <br />
               <em>{member.location}</em>
             </div>
@@ -59,16 +55,14 @@ export default function Editorial_Board() {
         <div className="row justify-content-center mb-4 fs-5">
           {[
             {
-              name: "Dr. B. Lisa",
-              designation: "ASP / Mechanical Engg.",
-              institute: "AAA University,",
-              location: "Al, Arabia."
+              name: "Person 1",
+              designation: "Position",
+              location: "Chennai, India."
             },
             {
-              name: "Dr. D. karl marx",
-              designation: "ASP / Production Engg.",
-              institute: "Institute of Technology,",
-              location: "City."
+              name: "Person 2",
+              designation: "Position",
+             location: "Chennai, India."
             }
           ].map((member, index) => (
             <div
@@ -79,8 +73,6 @@ export default function Editorial_Board() {
               <br />
               <span className="text-muted">{member.designation}</span>
               <br />
-              {member.institute}
-              <br />
               <em>{member.location}</em>
             </div>
           ))}
@@ -89,13 +81,11 @@ export default function Editorial_Board() {
         {/* Single Member at the Center */}
         <div className="row justify-content-center fs-5">
           <div className="col-md-8 bg-white text-center border border-primary rounded p-4 shadow-lg">
-            <strong className="text-dark fs-4">Dr. lenin</strong>
+            <strong className="text-dark fs-4">Person 3</strong>
             <br />
-            <span className="text-muted">Professor</span>
+            <span className="text-muted">Position</span>
             <br />
-            Dept. of Environmental Science & Engg.,
-            <br />
-            <em> University, Country.</em>
+            <em> Chennai, India.</em>
           </div>
         </div>
       </div>
