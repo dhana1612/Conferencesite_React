@@ -121,18 +121,19 @@ export default function NewPaperSubmission() {
           <div className="col-lg-6 col-12 mt-4 mt-lg-0">
             <div className="bg-light p-5 rounded shadow-lg" style={{ fontSize: '1.25rem' }}>
               <h2 className="fs-3 fw-bold mb-4 text-primary">Submission Guidelines</h2>
-              <ul className="list-unstyled text-secondary">
-                <li>✅ Ensure all author details are correctly filled.</li>
-                <li>✅ Upload a PDF or Word document of the paper.</li>
-                <li>✅ Only one submission per author will be accepted.</li>
-                <li>✅ Follow the formatting guidelines provided.</li>
+             <ul style={{ listStyleType: "circle" }} className="list-unstyled text-secondary">
+
+                <li>Ensure all author details are correctly filled.</li>
+                <li>Upload a PDF or Word document of the paper.</li>
+                <li>Only one submission per author will be accepted.</li>
+                <li>Follow the formatting guidelines provided.</li>
               </ul>
               <h2 className="fs-3 fw-bold mt-5 mb-4 text-primary">Important Notes</h2>
-              <ul className="list-unstyled text-secondary">
-                <li>⚠ Verify the accuracy of the contact details before submission.</li>
-                <li>⚠ The first author will be contacted for further correspondence.</li>
-                <li>⚠ Submissions must be made before the deadline date.</li>
-                <li>⚠ Late submissions may not be considered for review.</li>
+              <ul style={{ listStyleType: "circle" }} className="list-unstyled text-secondary">
+                <li>Verify the accuracy of the contact details before submission.</li>
+                <li>The first author will be contacted for further correspondence.</li>
+                <li>Submissions must be made before the deadline date.</li>
+                <li>Late submissions may not be considered for review.</li>
               </ul>
             </div>
           </div>

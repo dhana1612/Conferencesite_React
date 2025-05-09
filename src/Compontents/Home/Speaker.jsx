@@ -62,11 +62,11 @@ export default function Speaker() {
                 </div>
               </div>
             </div>
-            <div className="text-start mt-4">
+            {/* <div className="text-start mt-4">
               <Link className="btn btn-primary px-4 py-2 fs-5 fw-bold" to="/Speaker">
                 More
               </Link>
-            </div>
+            </div> */}
           </div>
         </section>
      

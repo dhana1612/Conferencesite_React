@@ -20,7 +20,7 @@ export default function HeroSection() {
           <h1 className="mb-3 text-center title">
            International Conference on Next-Gen Computing <br />and Intelligent Systems
           </h1>
-          <h5 className="mb-3 display-6 text-center text-warning">23th August, 2025</h5>
+          <h5 className="mb-3 display-6 text-center text-warning">23rd - 24th August, 2025</h5>
           <div className="d-flex justify-content-center">
             <Link
               className="btn btn-lg m-2 startbutton text-dark fs-4 fw-bold animated pulse infinite"

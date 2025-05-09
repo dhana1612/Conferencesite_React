@@ -17,17 +17,17 @@ const MetaTags = () => {
       description: "Learn more about ICNGCIS 2025 – the vision, mission, and the team behind the international tech conference.",
       keywords: "ICNGCIS 2025, conference mission, vision, about AI conference, tech conference details",
     },
-    "/about/Scope": {
+    "/about/scope": {
       title: "Next-Gen Computing & AI Systems | Scope of the Conference",
       description: "Discover the diverse topics covered at ICNGCIS 2025, including AI, ML, Big Data, and more.",
       keywords: "conference scope, AI topics, ML conference, computing scope, ICNGCIS tracks",
     },
-    "/about/Organizing_Committee": {
+    "/about/organizing_Committee": {
       title: "Next-Gen Computing & AI Systems | Organizing Committee",
       description: "Meet the expert organizing committee behind the ICNGCIS 2025 conference.",
       keywords: "ICNGCIS committee, conference organizers, tech conference team",
     },
-    "/about/Editorial_Board": {
+    "/about/editorial_Board": {
       title: "Next-Gen Computing & AI Systems | Editorial Board",
       description: "Explore the academic and industry professionals in the ICNGCIS 2025 editorial board.",
       keywords: "editorial board, conference reviewers, ICNGCIS publications",

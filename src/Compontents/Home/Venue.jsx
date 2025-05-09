@@ -24,7 +24,7 @@ export const Venue = () => {
                 International Conference on Next-Gen Computing
                 and Intelligent Systems
                   <br />
-                  Chennai, Tamil Nadu, India
+                  Chennai, India
                 </p>
               </div>
             </div>

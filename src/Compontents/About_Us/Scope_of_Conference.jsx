@@ -30,9 +30,9 @@ export default function Scope_of_Conference() {
                                     
                                     <h5 className="fs-4 text-primary fw-bold">AI & ML</h5>
                                     <ul className="list-unstyled text-start d-inline-block">
-                                        <li><span className="text-primary fw-bold">&bull;</span> Deep Learning & Neural Networks</li>
+                                        <li><span className="text-primary fw-bold">&bull;</span> Deep Learning </li>
                                         <li><span className="text-primary fw-bold">&bull;</span> Natural Language Processing</li>
-                                        <li><span className="text-primary fw-bold">&bull;</span> Reinforcement Learning & Robotics</li>
+                                        <li><span className="text-primary fw-bold">&bull;</span> Reinforcement Learning </li>
                                     </ul>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ export default function Scope_of_Conference() {
                                     <ul className="list-unstyled text-start d-inline-block">
                                         <li><span className="text-primary fw-bold">&bull;</span> Smart Cities & Smart Homes</li>
                                         <li><span className="text-primary fw-bold">&bull;</span> Edge & Fog Computing for IoT</li>
-                                        <li><span className="text-primary fw-bold">&bull;</span> IoT Security & Privacy Challenges</li>
+                                        <li><span className="text-primary fw-bold">&bull;</span> IoT Security </li>
                                     </ul>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ export default function Scope_of_Conference() {
                                    
                                     <h5 className="fs-4 text-primary fw-bold">BDA</h5>
                                     <ul className="list-unstyled text-start d-inline-block">
-                                        <li><span className="text-primary fw-bold">&bull;</span> Data Mining & Predictive Analytics</li>
+                                        <li><span className="text-primary fw-bold">&bull;</span> Data Mining </li>
                                         <li><span className="text-primary fw-bold">&bull;</span> AI-Driven Big Data Solutions</li>
                                         <li><span className="text-primary fw-bold">&bull;</span> Privacy & Security in Big Data</li>
                                     </ul>

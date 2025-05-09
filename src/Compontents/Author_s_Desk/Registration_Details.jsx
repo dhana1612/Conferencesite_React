@@ -41,7 +41,7 @@ export default function Registration_Details() {
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">Account Name:</td>
                                 <td className="text-start text-dark">International Conference on Next-Gen Computing
-                                and Intelligent Systems, Chennai.</td>
+                                and Intelligent Systems, Chennai, India</td>
                             </tr>
                             <tr className="border-bottom">
                                 <td className="text-end text-muted pe-4">Account Number:</td>

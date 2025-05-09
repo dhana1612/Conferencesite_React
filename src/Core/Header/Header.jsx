@@ -4,6 +4,14 @@ import { Link, useLocation } from "react-router-dom";
 export const Header = () => {
   const location = useLocation();
 
+  // Function to close the dropdown menu
+  const closeDropdown = () => {
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+    if (navbarCollapse.classList.contains("show")) {
+      navbarCollapse.classList.remove("show");
+    }
+  };
+
   return (
     <>
       <header className="bg-black">
@@ -36,6 +44,7 @@ export const Header = () => {
                   <Link
                     className={`nav-link text-white ${location.pathname === "/" ? "active" : ""}`}
                     to="/"
+                    onClick={closeDropdown}
                   >
                     Home
                   </Link>
@@ -43,7 +52,7 @@ export const Header = () => {
 
                 <li className="nav-item dropdown pe-4">
                   <Link
-                     className={`nav-link dropdown-toggle text-white ${location.pathname.includes("about") ? "active" : ""}`}
+                    className={`nav-link dropdown-toggle text-white ${location.pathname.includes("about") ? "active" : ""}`}
                     to="#"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -56,30 +65,34 @@ export const Header = () => {
                       <Link
                         className={`dropdown-item ${location.pathname === "/about" ? "active" : ""}`}
                         to="/about"
+                        onClick={closeDropdown}
                       >
                         About the Conference
                       </Link>
                     </li>
                     <li>
                       <Link
-                        className={`dropdown-item ${location.pathname === "/about/Scope" ? "active" : ""}`}
-                        to="/about/Scope"
+                        className={`dropdown-item ${location.pathname === "/about/scope" ? "active" : ""}`}
+                        to="/about/scope"
+                        onClick={closeDropdown}
                       >
                         Scope of Conference
                       </Link>
                     </li>
                     <li>
                       <Link
-                        className={`dropdown-item ${location.pathname === "/about/Organizing_Committee" ? "active" : ""}`}
-                        to="/about/Organizing_Committee"
+                        className={`dropdown-item ${location.pathname === "/about/organizing_Committee" ? "active" : ""}`}
+                        to="/about/organizing_Committee"
+                        onClick={closeDropdown}
                       >
                         Technical Committee
                       </Link>
                     </li>
                     <li>
                       <Link
-                        className={`dropdown-item ${location.pathname === "/about/Editorial_Board" ? "active" : ""}`}
-                        to="/about/Editorial_Board"
+                        className={`dropdown-item ${location.pathname === "/about/editorial_Board" ? "active" : ""}`}
+                        to="/about/editorial_Board"
+                        onClick={closeDropdown}
                       >
                         Editorial Board
                       </Link>
@@ -102,6 +115,7 @@ export const Header = () => {
                       <Link
                         className={`dropdown-item ${location.pathname === "/authors/key-dates" ? "active" : ""}`}
                         to="/authors/key-dates"
+                        onClick={closeDropdown}
                       >
                         Key Dates
                       </Link>
@@ -110,6 +124,7 @@ export const Header = () => {
                       <Link
                         className={`dropdown-item ${location.pathname === "/authors/registration-details" ? "active" : ""}`}
                         to="/authors/registration-details"
+                        onClick={closeDropdown}
                       >
                         Registration Details
                       </Link>
@@ -118,6 +133,7 @@ export const Header = () => {
                       <Link
                         className={`dropdown-item ${location.pathname === "/authors/new-paper-submissions" ? "active" : ""}`}
                         to="/authors/new-paper-submissions"
+                        onClick={closeDropdown}
                       >
                         New Paper Submission
                       </Link>
@@ -127,16 +143,9 @@ export const Header = () => {
 
                 <li className="nav-item pe-4">
                   <Link
-                    className={`nav-link text-white ${location.pathname === "/Speaker" ? "active" : ""}`}
-                    to="/Speaker"
-                  >
-                    Key Invites
-                  </Link>
-                </li>
-                <li className="nav-item pe-4">
-                  <Link
                     className={`nav-link text-white ${location.pathname === "/contact" ? "active" : ""}`}
                     to="/contact"
+                    onClick={closeDropdown}
                   >
                     Contact Us
                   </Link>

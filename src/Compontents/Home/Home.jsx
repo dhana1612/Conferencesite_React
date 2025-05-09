@@ -4,6 +4,7 @@ import About from './About'
 import Speaker from './Speaker'
 import Contact from './Contact'
 import { Helmet } from 'react-helmet'
+import { Venue } from './Venue'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
        <HeroSection/>
        <About/>
        <Speaker/>
+       <Venue/>
        <Contact/>
     </>
   )

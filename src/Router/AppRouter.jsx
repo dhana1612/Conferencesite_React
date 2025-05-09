@@ -23,9 +23,9 @@ export default function AppRouter() {
        <Route element={<Main/>}>
        <Route path="/" element={<Home/>} />
        <Route path="/about" element={<About_the_Conference/>} />
-       <Route path="/about/Scope" element={<Scope_of_Conference/>} />
-       <Route path="/about/Organizing_Committee" element={<Organizing_Committee/>} />
-       <Route path="/about/Editorial_Board" element={<Editorial_Board/>} />
+       <Route path="/about/scope" element={<Scope_of_Conference/>} />
+       <Route path="/about/organizing_Committee" element={<Organizing_Committee/>} />
+       <Route path="/about/editorial_Board" element={<Editorial_Board/>} />
        <Route path="/authors/key-dates" element={<Key_Dates/>} />
        <Route path="/authors/registration-details" element={<Registration_Details/>} />
        <Route path="/Speaker" element={<SpeakerHome/>} />
