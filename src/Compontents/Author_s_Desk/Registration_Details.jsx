@@ -4,14 +4,27 @@ import { Link } from 'react-router-dom'
 export default function Registration_Details() {
   return (
    <>
-       <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/053/712/130/non_2x/stack-of-books-on-wooden-table-against-blue-background-free-photo.jpg')", backgroundSize: "cover", backgroundPosition: "center",}}>
-        <div className="mask w-100 h-100  bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
-          <div className="text-white text-start px-3 animated slideInDown">
-            <h2 className="fw-bold display-5 text-uppercase text-light">Registration Details</h2>
-            <div className="divider mx-auto my-3"></div>
-          </div>
-        </div>
-      </div>
+<div id="intro-example" className="img-fluid animated fadeIn position-relative overflow-hidden" style={{ height: "30vh", marginTop: "80px", width: "100%" }}>
+  {/* Blurred Background Layer */}
+  <div className="position-absolute top-0 start-0 w-100 h-100" style={{
+    backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/053/712/130/non_2x/stack-of-books-on-wooden-table-against-blue-background-free-photo.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    filter: "blur(8px)",
+    zIndex: 1
+  }}></div>
+
+  {/* Content Layer with Dark Overlay */}
+  <div className="mask w-100 h-100 d-flex flex-column justify-content-center align-items-center position-relative" style={{
+    zIndex: 2,
+    backgroundColor: "rgba(0, 0, 0, 0.4)"
+  }}>
+    <div className="text-white text-start px-3 animated slideInDown">
+      <h2 className="fw-bold display-5 text-uppercase text-light">Registration Details</h2>
+      <div className="divider mx-auto my-3"></div>
+    </div>
+  </div>
+</div>
 
 
        <div className="container my-5 px-4">
@@ -34,7 +47,7 @@ export default function Registration_Details() {
                 <h5 className="text-uppercase text-primary fs-3 fw-bold pb-4">Bank Details</h5>
             </div>
 
-            <div className="card shadow-lg border-0 mx-auto" style={{ maxWidth: "700px" }}>
+            <div className="card shadow-lg border-0 mx-auto" style={{ maxWidth: "850px" }}>
                 <div className="card-body p-4 fs-4">
                     <table className="table table-borderless align-middle">
                         <tbody className="fw-semibold">

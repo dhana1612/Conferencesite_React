@@ -29,7 +29,7 @@ export default function About() {
         </div>
         {/* Image */}
         <div className="col-lg-5 col-md-12 d-flex justify-content-center mt-4 mt-lg-0">
-          <img src="images\photo1.png" alt="AI Image" className="img-fluid" />
+          <img src="images\photo1.webp" alt="AI Image" className="img-fluid" />
         </div>
       </div>
     </div>

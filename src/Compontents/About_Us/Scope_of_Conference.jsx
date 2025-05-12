@@ -7,14 +7,27 @@ export default function Scope_of_Conference() {
   return (
     <>
     <MetaTags/>
-       <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('https://wallpapers.com/images/hd/pile-of-books-on-blue-background-3gp0wweu63urx8eg.jpg')", backgroundSize: "cover", backgroundPosition: "center",}}>
-        <div className="mask w-100 h-100  bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
-          <div className="text-white text-start px-3 animated slideInDown">
-            <h2 className="fw-bold display-5 text-uppercase text-light">Scope of Conference</h2>
-            <div className="divider mx-auto my-3"></div>
-          </div>
-        </div>
-      </div>
+<div id="intro-example" className="img-fluid animated fadeIn position-relative overflow-hidden" style={{ height: "30vh", marginTop: "80px", width: "100%" }}>
+  {/* Blurred Background Image */}
+  <div className="position-absolute top-0 start-0 w-100 h-100" style={{
+    backgroundImage: "url('https://wallpapers.com/images/hd/pile-of-books-on-blue-background-3gp0wweu63urx8eg.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    filter: "blur(8px)",
+    zIndex: 1
+  }}></div>
+
+  {/* Foreground Content with Dark Overlay */}
+  <div className="mask w-100 h-100 d-flex flex-column justify-content-center align-items-center position-relative" style={{
+    zIndex: 2,
+    backgroundColor: "rgba(0, 0, 0, 0.4)" // Optional overlay for readability
+  }}>
+    <div className="text-white text-start px-3 animated slideInDown">
+      <h2 className="fw-bold display-5 text-uppercase text-light">Scope of Conference</h2>
+      <div className="divider mx-auto my-3"></div>
+    </div>
+  </div>
+</div>
 
       <div className="container hero-section my-5">
             <div className="row justify-content-center">

@@ -59,14 +59,23 @@ export default function ContactUs() {
             }};
   return (
    <>
-      <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('./images/photo22.jpg')", backgroundSize: "cover", backgroundPosition: "center",}}>
-        <div className="mask w-100 h-100  bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
-          <div className="text-white text-start px-3 animated slideInDown">
-            <h2 className="fw-bold display-5 text-uppercase text-light">Contact Us</h2>
-            <div className="divider mx-auto my-3"></div>
-          </div>
-        </div>
-      </div>
+<div id="intro-example" className="img-fluid animated fadeIn position-relative overflow-hidden" style={{ height: "30vh", marginTop: "80px", width: "100%" }}>
+  <div className="blur-background position-absolute top-0 start-0 w-100 h-100" style={{
+    backgroundImage: "url('./images/photo22.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    filter: "blur(8px)",
+    zIndex: 1
+  }}></div>
+
+  <div className="mask w-100 h-100 d-flex flex-column justify-content-center align-items-center position-relative" style={{ zIndex: 2, backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
+    <div className="text-white text-start px-3 animated slideInDown">
+      <h2 className="fw-bold display-5 text-uppercase text-light">Contact Us</h2>
+      <div className="divider mx-auto my-3"></div>
+    </div>
+  </div>
+</div>
+
 
 
       <section className="contact-our-area pb-3 mx-auto" id="contact">

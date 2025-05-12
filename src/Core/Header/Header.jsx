@@ -19,7 +19,7 @@ export const Header = () => {
           <div className="container-fluid">
             <a className="navbar-brand text-white fs-5 ps-4" href="/">
               <img
-                src="\images\artboard.png"
+                src="\images\artboard.webp"
                 alt="ICCNDS Logo"
                 height="58"
                 width="130"

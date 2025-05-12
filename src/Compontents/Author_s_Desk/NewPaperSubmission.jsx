@@ -43,23 +43,28 @@ export default function NewPaperSubmission() {
 
   return (
     <>
-      {/* Hero Section */}
-      <div className="img-fluid animated fadeIn"
-        style={{
-          height: "30vh",
-          marginTop: "80px",
-          width: "100%",
-          backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/053/712/130/non_2x/stack-of-books-on-wooden-table-against-blue-background-free-photo.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}>
-        <div className="mask w-100 h-100 bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
-          <div className="text-white text-start px-3 animated slideInDown">
-            <h2 className="fw-bold display-5 text-uppercase text-light">New Paper Submission</h2>
-            <div className="divider mx-auto my-3"></div>
-          </div>
-        </div>
-      </div>
+<div id="intro-example" className="img-fluid animated fadeIn position-relative overflow-hidden" style={{ height: "30vh", marginTop: "80px", width: "100%" }}>
+  {/* Blurred Background Layer */}
+  <div className="position-absolute top-0 start-0 w-100 h-100" style={{
+    backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/053/712/130/non_2x/stack-of-books-on-wooden-table-against-blue-background-free-photo.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    filter: "blur(8px)",
+    zIndex: 1
+  }}></div>
+
+  {/* Content Layer with Dark Overlay */}
+  <div className="mask w-100 h-100 d-flex flex-column justify-content-center align-items-center position-relative" style={{
+    zIndex: 2,
+    backgroundColor: "rgba(0, 0, 0, 0.4)"
+  }}>
+    <div className="text-white text-start px-3 animated slideInDown">
+      <h2 className="fw-bold display-5 text-uppercase text-light">Paper Submission</h2>
+      <div className="divider mx-auto my-3"></div>
+    </div>
+  </div>
+</div>
+
 
       {/* Submission Form */}
       <div className="container my-5">
@@ -82,9 +87,21 @@ export default function NewPaperSubmission() {
                 </div>
 
                 <div className="mb-3">
-                  <label className="form-label">Author Mobile Number *</label>
-                  <input type="text" className="form-control" name="AuthorMobile" value={formData.AuthorMobile} onChange={handleChange} required />
-                </div>
+                <label className="form-label">Author Mobile Number *</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  name="AuthorMobile"
+                  value={formData.AuthorMobile}
+                  onChange={(e) => {
+                    const onlyNums = e.target.value.replace(/[^0-9]/g, '');
+                    handleChange({ target: { name: 'AuthorMobile', value: onlyNums } });
+                  }}
+                  inputMode="numeric"
+                  required
+                />
+              </div>
+
 
                 <div className="mb-3">
                   <label className="form-label">Author Email *</label>
@@ -119,7 +136,7 @@ export default function NewPaperSubmission() {
 
           {/* Submission Guidelines */}
           <div className="col-lg-6 col-12 mt-4 mt-lg-0">
-            <div className="bg-light p-5 rounded shadow-lg" style={{ fontSize: '1.25rem' }}>
+            <div className=" p-5 rounded shadow-lg" style={{ fontSize: '1.25rem' }}>
               <h2 className="fs-3 fw-bold mb-4 text-primary">Submission Guidelines</h2>
              <ul style={{ listStyleType: "circle" }} className="list-unstyled text-secondary">
 

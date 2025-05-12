@@ -7,14 +7,28 @@ export default function About_the_Conference() {
   return (
     <>
     <MetaTags/>
-      <div id="intro-example" className="img-fluid animated fadeIn" style={{ height: "30vh", marginTop: "80px", width: "100%", backgroundImage: "url('./images/photo18.jpeg')", backgroundSize: "cover", backgroundPosition: "center",}}>
-        <div className="mask w-100 h-100  bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
-          <div className="text-white text-start px-3 animated slideInDown">
-            <h2 className="fw-bold display-5 text-uppercase text-light">About Conference</h2>
-            <div className="divider mx-auto my-3"></div>
-          </div>
-        </div>
-      </div>
+<div id="intro-example" className="img-fluid animated fadeIn position-relative overflow-hidden" style={{ height: "30vh", marginTop: "80px", width: "100%" }}>
+  {/* Blurred Background Layer */}
+  <div className="position-absolute top-0 start-0 w-100 h-100" style={{
+    backgroundImage: "url('./images/photo18.jpeg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    filter: "blur(8px)",
+    zIndex: 1
+  }}></div>
+
+  {/* Content Layer with Overlay */}
+  <div className="mask w-100 h-100 d-flex flex-column justify-content-center align-items-center position-relative" style={{
+    zIndex: 2,
+    backgroundColor: "rgba(0, 0, 0, 0.4)" // Optional: dark overlay for text clarity
+  }}>
+    <div className="text-white text-start px-3 animated slideInDown">
+      <h2 className="fw-bold display-5 text-uppercase text-light">About Conference</h2>
+      <div className="divider mx-auto my-3"></div>
+    </div>
+  </div>
+</div>
+
 
       {/* About Section */}
       <section className="about-us-countdown-area section-padding-100-0 pt-4 pb-2" id="about">
@@ -35,7 +49,7 @@ export default function About_the_Conference() {
 
             {/* Image */}
             <div className="col-lg-5 col-md-12 d-flex justify-content-center mt-4 mt-lg-0">
-              <img src="../images/photo1.png" alt="AI Image" className="img-fluid" />
+              <img src="../images/photo1.webp" alt="AI Image" className="img-fluid" />
             </div>
           </div>
         </div>
